@@ -1,0 +1,25 @@
+GetXmlFile.cpp: SendHttpViaUsb> OpenBulk worked on first try
+GetXmlFile.cpp: SetupLogging> ******** Start of Response from device ********
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<ProductInformation xmlns="http://www.hp.com/schemas/imaging/pls/dev/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hp.com/schemas/imaging/pls/dev/1.0 ProductInformation.xsd">
+  	 <ProductName>HP Color LaserJet 2605</ProductName>
+         <FormatterNumber>HK51N22</FormatterNumber>
+	 <PrinterNumber>Q7821A</PrinterNumber> 
+	 <ProductSerialNumber>CNCW83D36Q</ProductSerialNumber>
+         <ServiceID>18133</ServiceID>
+	 <FirmwareDatecode>20061114</FirmwareDatecode>
+	 <MaxPrintResolution>0</MaxPrintResolution> 
+         
+	 <MaxColorPrintResolution>2400</MaxColorPrintResolution> 
+         
+         <ControllerNumber>25</ControllerNumber>
+         
+         
+         
+         
+
+
+</ProductInformation>
+GetXmlFile.cpp: SetupLogging> ******** End of Response from device ********

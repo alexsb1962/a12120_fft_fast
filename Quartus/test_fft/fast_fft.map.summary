@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jul 14 16:49:15 2010
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : fast_fft
+Top-level Entity Name : fast_fft
+Family : Cyclone III
+Total logic elements : 22,620
+    Total combinational functions : 18,716
+    Dedicated logic registers : 15,636
+Total registers : 15636
+Total pins : 126
+Total virtual pins : 0
+Total memory bits : 484,096
+Embedded Multiplier 9-bit elements : 74
+Total PLLs : 0

@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at asvm12120_fft.v(71): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at asvm12120_fft.v(173): always construct contains both blocking and non-blocking assignments

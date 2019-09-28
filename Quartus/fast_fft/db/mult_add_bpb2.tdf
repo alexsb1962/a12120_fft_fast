@@ -1,0 +1,82 @@
+--altmult_add ADDNSUB_MULTIPLIER_PIPELINE_REGISTER1="CLOCK0" ADDNSUB_MULTIPLIER_REGISTER1="CLOCK0" CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEVICE_FAMILY="Cyclone III" DSP_BLOCK_BALANCING="Auto" INPUT_REGISTER_A0="CLOCK0" INPUT_REGISTER_A1="CLOCK0" INPUT_REGISTER_B0="CLOCK0" INPUT_REGISTER_B1="CLOCK0" INPUT_SOURCE_A0="DATAA" INPUT_SOURCE_A1="DATAA" INPUT_SOURCE_B0="DATAB" INPUT_SOURCE_B1="DATAB" MULTIPLIER1_DIRECTION="SUB" MULTIPLIER_REGISTER0="CLOCK0" MULTIPLIER_REGISTER1="CLOCK0" NUMBER_OF_MULTIPLIERS=2 OUTPUT_REGISTER="CLOCK0" REPRESENTATION_A="SIGNED" REPRESENTATION_B="SIGNED" SIGNED_PIPELINE_REGISTER_A="CLOCK0" SIGNED_PIPELINE_REGISTER_B="CLOCK0" SIGNED_REGISTER_A="CLOCK0" SIGNED_REGISTER_B="CLOCK0" WIDTH_A=16 WIDTH_B=16 WIDTH_RESULT=33 clock0 dataa datab ena0 result CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
+--VERSION_BEGIN 9.0 cbx_alt_ded_mult_y 2008:05:19:10:01:35:SJ cbx_altmult_add 2009:01:23:16:28:44:SJ cbx_cycloneii 2008:05:19:10:57:37:SJ cbx_lpm_add_sub 2008:12:09:22:11:50:SJ cbx_lpm_mult 2008:09:30:18:36:56:SJ cbx_mgl 2009:01:29:16:12:07:SJ cbx_padd 2008:09:04:11:11:31:SJ cbx_parallel_add 2008:05:19:10:26:21:SJ cbx_stratix 2008:09:18:16:08:35:SJ cbx_stratixii 2008:11:14:16:08:42:SJ cbx_util_mgl 2008:11:21:14:58:47:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2009 Altera Corporation
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, Altera MegaCore Function License 
+--  Agreement, or other applicable license agreement, including, 
+--  without limitation, that your use is for the sole purpose of 
+--  programming logic devices manufactured by Altera and sold by 
+--  Altera or its authorized distributors.  Please refer to the 
+--  applicable agreement for further details.
+
+
+FUNCTION ded_mult_1j51 (aclr[3..0], clock[3..0], dataa[15..0], datab[15..0], ena[3..0])
+RETURNS ( result[31..0]);
+FUNCTION soft (in)
+RETURNS ( out);
+
+--synthesis_resources = dsp_9bit 4 lut 67 reg 34 
+SUBDESIGN mult_add_bpb2
+( 
+	clock0	:	input;
+	dataa[31..0]	:	input;
+	datab[31..0]	:	input;
+	ena0	:	input;
+	result[32..0]	:	output;
+) 
+VARIABLE
+	add3_result[32..0]	:	WIRE;
+	add5_result[33..0]	:	WIRE;
+	ded_mult1 : ded_mult_1j51;
+	ded_mult2 : ded_mult_1j51;
+	dffe7a[33..0] : dffe;
+	sft4a[32..0] : soft;
+	sft6a[33..0] : soft;
+	aclr3	: NODE;
+	dataa_bus[31..0]	: WIRE;
+	datab_bus[31..0]	: WIRE;
+	w176w	: WIRE;
+	w_input177w[32..0]	: WIRE;
+	w_input182w[32..0]	: WIRE;
+	w_input188w[33..0]	: WIRE;
+	w_input194w[33..0]	: WIRE;
+	w_neg_out169w[31..0]	: WIRE;
+
+BEGIN 
+	add3_result[] = w_input177w[] + w_input182w[];
+	add5_result[] = w_input188w[] + w_input194w[];
+	ded_mult1.aclr[] = ( aclr3, B"000");
+	ded_mult1.clock[] = ( B"111", clock0);
+	ded_mult1.dataa[] = ( dataa_bus[15..0]);
+	ded_mult1.datab[] = ( datab_bus[15..0]);
+	ded_mult1.ena[] = ( B"111", ena0);
+	ded_mult2.aclr[] = ( aclr3, B"000");
+	ded_mult2.clock[] = ( B"111", clock0);
+	ded_mult2.dataa[] = ( dataa_bus[31..16]);
+	ded_mult2.datab[] = ( datab_bus[31..16]);
+	ded_mult2.ena[] = ( B"111", ena0);
+	dffe7a[].clk = clock0;
+	dffe7a[].clrn = (! aclr3);
+	dffe7a[].d = sft6a[].out;
+	dffe7a[].ena = ena0;
+	sft4a[].in = add3_result[];
+	sft6a[].in = add5_result[];
+	aclr3 = GND;
+	dataa_bus[] = ( dataa[31..0]);
+	datab_bus[] = ( datab[31..0]);
+	result[32..0] = dffe7a[32..0].q;
+	w176w = B"1";
+	w_input177w[] = ( ded_mult1.result[31..31], ded_mult1.result[31..0]);
+	w_input182w[] = ( w_neg_out169w[31..31], ( (! ded_mult2.result[31..0])));
+	w_input188w[] = ( add3_result[32..32], add3_result[]);
+	w_input194w[] = ( B"000000000000000000000000000000000", w176w);
+	w_neg_out169w[] = ( (! ded_mult2.result[31..0]));
+END;
+--VALID FILE

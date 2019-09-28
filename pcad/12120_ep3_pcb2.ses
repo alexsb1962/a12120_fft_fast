@@ -1,0 +1,802 @@
+(session .\12120_ep3_pcb2.ses
+# Session file created by SPECCTRA ShapeBased Automation Software V15.0 made 2003/06/17 at 16:13:59
+ (base_design .\12120_ep3_pcb2.DSN)
+ (history
+  (self
+   (created_time Feb 09 23:18:25 2008 )
+  )
+ )
+ (placement 
+# Placement file created by SPECCTRA ShapeBased Automation Software V15.0 made 2003/06/17 at 16:13:59
+  (resolution MM 100000)
+  (component '74HC595(SOIC)_1'
+   (place DD9 126746000 66802000 front  0 )
+   (place DD10 126746000 68326000 front  0)
+  )
+  (component 'AT24C64(SOIC)_1'
+   (place DD14 123063000 72517000 front  0)
+  )
+  (component 'LM2676(TO_263)_1'
+   (place D1 123444000 64516000 front  90 )
+   (place D2 125984000 65278000 front  270)
+  )
+  (component 'RK1(NAIS)_1'
+   (place RK1 115316000 75438000 front  0)
+  )
+  (component 1N4001_1
+   (place VD7 127508000 69596000 front  270)
+  )
+  (component 30BQ60_1
+   (place VD5 120650000 64770000 front  180 )
+   (place VD6 125476000 73533000 front  0)
+  )
+  (component AD9433_1
+   (place DA2 115189000 73660000 back  90)
+  )
+  (component AD9517-4_1
+   (place DD2 116967000 69977000 front  90)
+  )
+  (component AS7C34096JC_1
+   (place DD5 120396000 71501000 front  90 )
+   (place DD6 116840000 78232000 front  90 )
+   (place DD7 120396000 69977000 front  90 )
+   (place DD8 120142000 76708000 front  90)
+  )
+  (component AVX_B_1
+   (place C14 122301000 67437000 front  180)
+  )
+  (component AVX_D_1
+   (place C95 122809000 74549000 front  0 )
+   (place C96 112649000 68199000 front  0 )
+   (place C102 124079000 64643000 front  0 )
+   (place C103 123698000 66548000 front  0 )
+   (place C106 122936000 66294000 front  180)
+  )
+  (component BAS32L_1
+   (place VD1 122674000 76482000 front  0 )
+   (place VD2 122785000 73307000 front  0 )
+   (place VD3 124968000 69977000 front  0 )
+   (place VD4 123952000 69977000 front  0)
+  )
+  (component BNC_P_1
+   (place X1 114000000 73000000 front  270 (lock_type position) )
+   (place X2 114000000 77000000 front  270 (lock_type position))
+  )
+  (component CAP0805_1
+   (place C1 114300000 64770000 front  0 )
+   (place C2 116586000 65532000 front  0 )
+   (place C3 113754000 77722000 front  0 )
+   (place C4 114254000 77722000 front  0 )
+   (place C5 114754000 77722000 front  0 )
+   (place C6 115254000 77722000 front  0 )
+   (place C7 115754000 77722000 front  0 )
+   (place C8 116254000 77722000 front  0 )
+   (place C9 116754000 77722000 front  0 )
+   (place C10 117254000 77722000 front  0 )
+   (place C11 117754000 77722000 front  0 )
+   (place C12 113284000 70358000 front  0 )
+   (place C13 119888000 73406000 back  0 )
+   (place C15 120904000 73406000 back  0 )
+   (place C16 122809000 67564000 back  0 )
+   (place C17 122078000 67308000 back  0 )
+   (place C18 121539000 67056000 back  0 )
+   (place C19 121078000 67308000 back  0 )
+   (place C20 120142000 67056000 back  0 )
+   (place C21 120269000 67437000 back  0 )
+   (place C22 119380000 67437000 back  0 )
+   (place C23 118999000 67056000 back  0 )
+   (place C24 119761000 74549000 back  0 )
+   (place C25 119253000 74041000 back  0 )
+   (place C26 117118000 65530000 front  0 )
+   (place C27 117618000 65530000 front  0 )
+   (place C28 118118000 65530000 front  0 )
+   (place C29 116586000 66040000 front  0 )
+   (place C30 118745000 64770000 front  0 )
+   (place C31 115697000 70739000 front  180 )
+   (place C32 123190000 69596000 front  180 )
+   (place C33 114554000 64262000 front  0 )
+   (place C34 113411000 66548000 front  0 )
+   (place C35 127762000 69850000 front  0 )
+   (place C36 112754000 78222000 front  0 )
+   (place C37 113254000 78222000 front  0 )
+   (place C38 113754000 78222000 front  0 )
+   (place C39 114254000 78222000 front  0 )
+   (place C40 114754000 78222000 front  0 )
+   (place C41 115254000 78222000 front  0 )
+   (place C42 115754000 78222000 front  0 )
+   (place C43 116254000 78222000 front  0 )
+   (place C44 116754000 78222000 front  0 )
+   (place C45 117254000 78222000 front  0 )
+   (place C46 117754000 78222000 front  0 )
+   (place C47 119126000 67437000 front  0 )
+   (place C48 119634000 67691000 front  0 )
+   (place C49 120270000 67554000 front  0 )
+   (place C50 120777000 67310000 front  0 )
+   (place C51 122047000 67818000 front  180 )
+   (place C52 122682000 67945000 back  0 )
+   (place C53 122078000 67808000 back  0 )
+   (place C54 121539000 67564000 back  0 )
+   (place C55 121158000 67945000 back  0 )
+   (place C56 120578000 67808000 back  0 )
+   (place C57 120078000 67808000 back  0 )
+   (place C58 119578000 67808000 back  0 )
+   (place C59 128270000 70231000 front  0 )
+   (place C60 122174000 70485000 front  0 )
+   (place C61 124968000 68072000 front  0 )
+   (place C62 117118000 66030000 front  0 )
+   (place C63 117618000 66030000 front  0 )
+   (place C64 118118000 66030000 front  0 )
+   (place C65 123952000 68570000 front  0 )
+   (place C66 124452000 68570000 front  0 )
+   (place C67 124952000 68570000 front  0 )
+   (place C68 121031000 74041000 back  0 )
+   (place C69 120523000 73787000 back  0 )
+   (place C70 119928000 73904000 back  0 )
+   (place C71 114427000 65659000 front  0 )
+   (place C72 112754000 78722000 front  0 )
+   (place C73 113254000 78722000 front  0 )
+   (place C74 113754000 78722000 front  0 )
+   (place C75 114254000 78722000 front  0 )
+   (place C76 114754000 78722000 front  0 )
+   (place C77 115254000 78722000 front  0 )
+   (place C78 115754000 78722000 front  0 )
+   (place C79 116254000 78722000 front  0 )
+   (place C80 116754000 78722000 front  0 )
+   (place C81 117254000 78722000 front  0 )
+   (place C82 117754000 78722000 front  0 )
+   (place C83 119507000 68453000 front  0 )
+   (place C84 118745000 68326000 front  0 )
+   (place C85 120650000 68580000 front  0 )
+   (place C86 120777000 67818000 front  0 )
+   (place C87 121285000 68326000 front  0 )
+   (place C88 122578000 68308000 back  0 )
+   (place C89 122174000 68580000 back  0 )
+   (place C90 121578000 68308000 back  0 )
+   (place C91 120904000 68580000 back  0 )
+   (place C92 120650000 68199000 back  0 )
+   (place C93 120142000 68580000 back  0 )
+   (place C94 119578000 68308000 back  0 )
+   (place C97 124452000 69070000 front  0 )
+   (place C98 124952000 69070000 front  0 )
+   (place C99 121031000 74549000 back  0 )
+   (place C100 120428000 74404000 back  0 )
+   (place C101 127127000 68707000 front  180 )
+   (place C104 124079000 73279000 front  0 )
+   (place C105 122120000 78452000 front  0 )
+   (place C107 121666000 77851000 front  0 )
+   (place C108 122072000 77436000 front  0 )
+   (place C109 122572000 77436000 front  0 )
+   (place C110 123199000 75277000 front  0 )
+   (place C111 123699000 75277000 front  0 )
+   (place C112 124199000 75277000 front  0 )
+   (place C113 124699000 75277000 front  0 )
+   (place C114 123294000 75531000 front  0 )
+   (place C115 123794000 75531000 front  0 )
+   (place C116 124294000 75531000 front  0)
+  )
+  (component CY7C68013-100_1
+   (place DD13 121920000 72136000 back  0)
+  )
+  (component DB25_EPP_MAMA_1
+   (place X5 128016000 68453000 front  90)
+  )
+  (component EP3C25Q240_1
+   (place DD4 118364000 75438000 front  0)
+  )
+  (component INDUCT12X12SMD_1
+   (place L1 119634000 66167000 front  0 )
+   (place L2 126492000 71628000 front  180)
+  )
+  (component JCO8-3_1
+   (place DD12 116840000 74295000 back  90)
+  )
+  (component JCO14-3-B_1
+   (place DD11 126492000 74676000 front  0)
+  )
+  (component LM78L05ACZA_1
+   (place DA3 125857000 68199000 front  0)
+  )
+  (component LM7805_1
+   (place DA1 115189000 66294000 front  0)
+  )
+  (component MC100EL16D_1
+   (place DD1 116713000 66675000 front  0)
+  )
+  (component PIN_1
+   (place K1 113919000 70739000 front  0 )
+   (place K2 112903000 70739000 front  0 )
+   (place K3 112776000 77724000 front  0 )
+   (place K4 127254000 69850000 front  0 )
+   (place K5 127762000 70231000 front  0 )
+   (place K6 118872000 67818000 back  0 )
+   (place K7 114427000 70739000 front  0 )
+   (place K8 113411000 70739000 front  0 )
+   (place K9 117475000 68707000 front  0 )
+   (place K10 117221000 64770000 front  0 )
+   (place K11 113284000 77724000 front  0 )
+   (place K12 118364000 67310000 back  0 )
+   (place K13 117094000 68707000 front  0 )
+   (place K14 118364000 67818000 back  0 )
+   (place K15 123825000 71120000 front  0 )
+   (place K16 121666000 78486000 front  0 )
+   (place K17 124460000 68072000 front  0 )
+   (place K18 121539000 77470000 front  0 )
+   (place K19 125349000 70231000 front  0 )
+   (place K20 125857000 70231000 front  0 )
+   (place K21 124714000 69850000 front  0 )
+   (place K22 112903000 65659000 front  0 )
+   (place K23 116586000 68707000 front  0 )
+   (place K24 115443000 65659000 front  0)
+  )
+  (component RES0805_1
+   (place R2 113792000 64770000 front  0 )
+   (place R3 113919000 65659000 front  0 )
+   (place R4 118872000 67056000 front  0 )
+   (place R5 115824000 65659000 front  0 )
+   (place R6 119126000 73406000 back  180 )
+   (place R7 115316000 68707000 front  180 )
+   (place R8 115824000 68707000 front  180 )
+   (place R13 116713000 64770000 front  0 )
+   (place R14 126746000 70231000 front  0 )
+   (place R15 127000000 69850000 front  180 )
+   (place R16 116332000 68707000 front  180 )
+   (place R17 113665000 65659000 front  180 )
+   (place R18 113538000 64770000 front  180 )
+   (place R19 116459000 64770000 front  180 )
+   (place R20 114935000 70739000 front  0 )
+   (place R21 120142000 73406000 back  180 )
+   (place R23 124587000 71120000 front  180 )
+   (place R24 123952000 68072000 front  0 )
+   (place R25 117983000 64770000 front  180 )
+   (place R26 123317000 65659000 front  0 )
+   (place R27 118491000 64770000 front  180 )
+   (place R28 127254000 70231000 front  0 )
+   (place R29 123317000 71120000 front  0 )
+   (place R30 126492000 70231000 front  180 )
+   (place R31 125095000 71120000 front  180 )
+   (place R32 126492000 69850000 front  180 )
+   (place R33 125984000 69850000 front  180)
+  )
+  (component RES1206_1
+   (place R1 120142000 67056000 front  180)
+  )
+  (component RES_CAY16_1
+   (place R9 118618000 72644000 back  0 )
+   (place R10 116586000 72898000 front  0 )
+   (place R11 117856000 71501000 front  0 )
+   (place R12 117856000 73152000 front  0 )
+   (place R22 118110000 74168000 front  270)
+  )
+  (component T_1_2_6W_1
+   (place T1 118618000 75057000 back  0 )
+   (place T2 115443000 73787000 front  180)
+  )
+  (component USB_B_1
+   (place X4 129032000 75057000 front  90 (lock_type position))
+  )
+ ) 
+ (routes 
+# Routes file created by SPECCTRA ShapeBased Automation Software V15.0 made 2003/06/17 at 16:13:59
+  (resolution MM 100000)
+  (parser
+   (host_cad Altium)
+   (host_version 18.00)
+   (constant Bottom 2 )
+   (constant TestPointLayerNumBack 11 )
+   (constant TestPointLayerNumFront 10 )
+   (constant Top 1 )
+  )
+  (structure_out
+   (layer Top (type signal)
+   )
+   (layer ind_vcc (type power)
+   )
+   (layer ind_gnd (type power)
+   )
+   (layer Bottom (type signal)
+   )
+  )
+  (library_out
+  (padstack 'CCTVIA_(Default)' 
+   (shape (circ Top 101600 0 0))
+   (shape (circ ind_vcc 162560 0 0))
+   (shape (circ ind_gnd 162560 0 0))
+   (shape (circ Bottom 101600 0 0))
+  )
+  (padstack d32d50 
+   (shape (circ Top 500000 0 0))
+   (shape (circ ind_vcc 640000 0 0))
+   (shape (circ ind_gnd 640000 0 0))
+   (shape (circ Bottom 500000 0 0))
+  )
+  )
+  (network_out
+   (Net 0V 
+   )
+   (Net 1.2V 
+   )
+   (Net 3.3V 
+   )
+   (Net 5V 
+   )
+   (Net 7V 
+   )
+   (Net 24M 
+   )
+   (Net ADC0 
+   )
+   (Net ADC1 
+   )
+   (Net ADC2 
+   )
+   (Net ADC3 
+   )
+   (Net ADC4 
+   )
+   (Net ADC5 
+   )
+   (Net ADC6 
+   )
+   (Net ADC7 
+   )
+   (Net ADC8 
+   )
+   (Net ADC9 
+   )
+   (Net ADC10 
+   )
+   (Net ADC11 
+   )
+   (Net ADC12 
+   )
+   (Net ADC_CLK 
+   )
+   (Net ADC_CLK1 
+   )
+   (Net ADC_CLK2 
+   )
+   (Net AGND 
+   )
+   (Net AVCC 
+   )
+   (Net CHAN 
+   )
+   (Net CONF_DONE 
+   )
+   (Net CS 
+   )
+   (Net DATA0 
+   )
+   (Net DCLK 
+   )
+   (Net DS 
+   )
+   (Net FD0 
+   )
+   (Net FD1 
+   )
+   (Net FD2 
+   )
+   (Net FD3 
+   )
+   (Net FD4 
+   )
+   (Net FD5 
+   )
+   (Net FD6 
+   )
+   (Net FD7 
+   )
+   (Net FD8 
+   )
+   (Net FD9 
+   )
+   (Net FD10 
+   )
+   (Net FD11 
+   )
+   (Net FD12 
+   )
+   (Net FD13 
+   )
+   (Net FD14 
+   )
+   (Net FD15 
+   )
+   (Net FLAGA 
+   )
+   (Net FLAGB 
+   )
+   (Net IFCLK 
+   )
+   (Net LCLK 
+   )
+   (Net LCLK0 
+   )
+   (Net LCLK1 
+   )
+   (Net NCONFIG 
+   )
+   (Net NET00000 
+   )
+   (Net NET00001 
+   )
+   (Net NET00002 
+   )
+   (Net NET00003 
+   )
+   (Net NET00004 
+   )
+   (Net NET00005 
+   )
+   (Net NET00006 
+   )
+   (Net NET00007 
+   )
+   (Net NET00008 
+   )
+   (Net NET00009 
+   )
+   (Net NET00010 
+   )
+   (Net NET00011 
+   )
+   (Net NET00012 
+   )
+   (Net NET00013 
+   )
+   (Net NET00014 
+   )
+   (Net NET00015 
+   )
+   (Net NET00016 
+   )
+   (Net NET00017 
+   )
+   (Net NET00018 
+   )
+   (Net NET00019 
+   )
+   (Net NET00020 
+   )
+   (Net NET00021 
+   )
+   (Net NET00022 
+   )
+   (Net NET00023 
+   )
+   (Net NET00024 
+   )
+   (Net NET00025 
+   )
+   (Net NET00026 
+   )
+   (Net NET00027 
+   )
+   (Net NET00028 
+   )
+   (Net NET00029 
+   )
+   (Net NET00030 
+   )
+   (Net NET00031 
+   )
+   (Net NET00032 
+   )
+   (Net NET00033 
+   )
+   (Net NET00034 
+   )
+   (Net NET00035 
+   )
+   (Net NET00036 
+   )
+   (Net NET00037 
+   )
+   (Net NET00038 
+   )
+   (Net NET00039 
+   )
+   (Net NET00040 
+   )
+   (Net NET00041 
+   )
+   (Net NET00042 
+   )
+   (Net NET00043 
+   )
+   (Net NET00044 
+   )
+   (Net NET00045 
+   )
+   (Net NET00046 
+   )
+   (Net NET00047 
+   )
+   (Net NET00048 
+   )
+   (Net NET00052 
+   )
+   (Net NET00054 
+   )
+   (Net NET00055 
+   )
+   (Net NET00064 
+   )
+   (Net NET00066 
+   )
+   (Net NET00097 
+   )
+   (Net NET00098 
+   )
+   (Net NET00100 
+   )
+   (Net NET00101 
+   )
+   (Net NET00102 
+   )
+   (Net NET00103 
+   )
+   (Net NET00107 
+   )
+   (Net NET00110 
+   )
+   (Net NET00111 
+   )
+   (Net NET00112 
+   )
+   (Net NET00113 
+   )
+   (Net NET00116 
+   )
+   (Net NET00117 
+   )
+   (Net NET00119 
+   )
+   (Net NET00120 
+   )
+   (Net NET00121 
+   )
+   (Net NET00124 
+   )
+   (Net NET00125 
+   )
+   (Net NET00126 
+   )
+   (Net NET00127 
+   )
+   (Net NET00128 
+   )
+   (Net NET00129 
+   )
+   (Net NET00130 
+   )
+   (Net NET00131 
+   )
+   (Net NET00134 
+   )
+   (Net NET00141 
+   )
+   (Net NSTATUS 
+   )
+   (Net PE5 
+   )
+   (Net PE6 
+   )
+   (Net PE7 
+   )
+   (Net ProtectedFreePad 
+   (via d32d50 129540000 64516000 (net ProtectedFreePad ) (via_number 1)
+    (type route))
+   (via d32d50 112522000 64516000 (net ProtectedFreePad ) (via_number 1)
+    (type route))
+   (via d32d50 129540000 78486000 (net ProtectedFreePad ) (via_number 1)
+    (type route))
+   (via d32d50 112522000 78486000 (net ProtectedFreePad ) (via_number 1)
+    (type route))
+   )
+   (Net RAM_OE0 
+   )
+   (Net RAM_OE1 
+   )
+   (Net RAM_WE0 
+   )
+   (Net RAM_WE1 
+   )
+   (Net RAMA0_0 
+   )
+   (Net RAMA0_1 
+   )
+   (Net RAMA0_2 
+   )
+   (Net RAMA0_3 
+   )
+   (Net RAMA0_4 
+   )
+   (Net RAMA0_5 
+   )
+   (Net RAMA0_6 
+   )
+   (Net RAMA0_7 
+   )
+   (Net RAMA0_8 
+   )
+   (Net RAMA0_9 
+   )
+   (Net RAMA0_10 
+   )
+   (Net RAMA0_11 
+   )
+   (Net RAMA0_12 
+   )
+   (Net RAMA0_13 
+   )
+   (Net RAMA0_14 
+   )
+   (Net RAMA0_15 
+   )
+   (Net RAMA0_16 
+   )
+   (Net RAMA0_17 
+   )
+   (Net RAMA0_18 
+   )
+   (Net RAMA1_0 
+   )
+   (Net RAMA1_1 
+   )
+   (Net RAMA1_2 
+   )
+   (Net RAMA1_3 
+   )
+   (Net RAMA1_4 
+   )
+   (Net RAMA1_5 
+   )
+   (Net RAMA1_6 
+   )
+   (Net RAMA1_7 
+   )
+   (Net RAMA1_8 
+   )
+   (Net RAMA1_9 
+   )
+   (Net RAMA1_10 
+   )
+   (Net RAMA1_11 
+   )
+   (Net RAMA1_12 
+   )
+   (Net RAMA1_13 
+   )
+   (Net RAMA1_14 
+   )
+   (Net RAMA1_15 
+   )
+   (Net RAMA1_16 
+   )
+   (Net RAMA1_17 
+   )
+   (Net RAMA1_18 
+   )
+   (Net RAMD0_0 
+   )
+   (Net RAMD0_1 
+   )
+   (Net RAMD0_2 
+   )
+   (Net RAMD0_3 
+   )
+   (Net RAMD0_4 
+   )
+   (Net RAMD0_5 
+   )
+   (Net RAMD0_6 
+   )
+   (Net RAMD0_7 
+   )
+   (Net RAMD0_8 
+   )
+   (Net RAMD0_9 
+   )
+   (Net RAMD0_10 
+   )
+   (Net RAMD0_11 
+   )
+   (Net RAMD0_12 
+   )
+   (Net RAMD0_13 
+   )
+   (Net RAMD0_14 
+   )
+   (Net RAMD0_15 
+   )
+   (Net RAMD1_0 
+   )
+   (Net RAMD1_1 
+   )
+   (Net RAMD1_2 
+   )
+   (Net RAMD1_3 
+   )
+   (Net RAMD1_4 
+   )
+   (Net RAMD1_5 
+   )
+   (Net RAMD1_6 
+   )
+   (Net RAMD1_7 
+   )
+   (Net RAMD1_8 
+   )
+   (Net RAMD1_9 
+   )
+   (Net RAMD1_10 
+   )
+   (Net RAMD1_11 
+   )
+   (Net RAMD1_12 
+   )
+   (Net RAMD1_13 
+   )
+   (Net RAMD1_14 
+   )
+   (Net RAMD1_15 
+   )
+   (Net RESET 
+   )
+   (Net SCLK 
+   )
+   (Net SDIO 
+   )
+   (Net SDO 
+   )
+   (Net SLRD 
+   )
+   (Net SLWR 
+   )
+   (Net TCK 
+   )
+   (Net TDI 
+   )
+   (Net TDO 
+   )
+   (Net TMS 
+   )
+   (Net TTLD0 
+   )
+   (Net TTLD1 
+   )
+   (Net TTLD2 
+   )
+   (Net TTLD3 
+   )
+   (Net TTLD4 
+   )
+   (Net TTLD5 
+   )
+   (Net TTLD6 
+   )
+   (Net TTLD7 
+   )
+   (Net TTLD8 
+   )
+   (Net TTLD9 
+   )
+   (Net TTLD10 
+   )
+   (Net TTLD11 
+   )
+   (Net TTLD12 
+   )
+   (Net TTLD13 
+   )
+   (Net TTLD14 
+   )
+   (Net TTLD15 
+   )
+  )
+ (test_points
+ )
+ )
+)

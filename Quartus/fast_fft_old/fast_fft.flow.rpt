@@ -1,0 +1,130 @@
+Flow report for fast_fft
+Thu Feb 04 15:21:44 2010
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Flow Failed - Thu Feb 04 15:21:44 2010   ;
+; Quartus II Version                 ; 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name                      ; fast_fft                                 ;
+; Top-level Entity Name              ; asvm12120_fft                            ;
+; Family                             ; Cyclone III                              ;
+; Device                             ; EP3C25Q240C8                             ;
+; Timing Models                      ; Final                                    ;
+; Met timing requirements            ; N/A                                      ;
+; Total logic elements               ; 41 / 24,624 ( < 1 % )                    ;
+;     Total combinational functions  ; 11 / 24,624 ( < 1 % )                    ;
+;     Dedicated logic registers      ; 36 / 24,624 ( < 1 % )                    ;
+; Total registers                    ; 36                                       ;
+; Total pins                         ; 126 / 149 ( 85 % )                       ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 0 / 608,256 ( 0 % )                      ;
+; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                          ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/04/2010 15:21:40 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; fast_fft            ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                              ;
++------------------------------------+---------------------------------------------------------+---------------+---------------+----------------+
+; Assignment Name                    ; Value                                                   ; Default Value ; Entity Name   ; Section Id     ;
++------------------------------------+---------------------------------------------------------+---------------+---------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 156794726638.126528970005912                            ; --            ; --            ; --             ;
+; CYCLONEII_OPTIMIZATION_TECHNIQUE   ; Speed                                                   ; Balanced      ; --            ; --             ;
+; IP_TOOL_NAME                       ; LPM_ADD_SUB                                             ; --            ; --            ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                     ; --            ; --            ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                                      ; --            ; --            ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                                       ; --            ; --            ; --             ;
+; MISC_FILE                          ; D:/ADC/asvm12120_fft_fast/Quartus/fast_fft/fast_fft.dpf ; --            ; --            ; --             ;
+; MISC_FILE                          ; sub2048.bsf                                             ; --            ; --            ; --             ;
+; MISC_FILE                          ; sub2048_inst.v                                          ; --            ; --            ; --             ;
+; MISC_FILE                          ; sub2048_bb.v                                            ; --            ; --            ; --             ;
+; MISC_FILE                          ; sub2048.inc                                             ; --            ; --            ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                                    ; --            ; --            ; --             ;
+; PARTITION_COLOR                    ; 16764057                                                ; --            ; asvm12120_fft ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                  ; --            ; asvm12120_fft ; Top            ;
+; SEARCH_PATH                        ; .                                                       ; --            ; --            ; --             ;
+; SEARCH_PATH                        ; fft-library                                             ; --            ; --            ; --             ;
+; SEARCH_PATH                        ; ./                                                      ; --            ; --            ; --             ;
+; SEARCH_PATH                        ; fir_compiler-library/                                   ; --            ; --            ; --             ;
+; SEARCH_PATH                        ; C:/altera/80/ip/fir_compiler/lib/                       ; --            ; --            ; --             ;
+; SEARCH_PATH                        ; C:/altera/80/ip/cic/lib/                                ; --            ; --            ; --             ;
+; TOP_LEVEL_ENTITY                   ; asvm12120_fft                                           ; fast_fft      ; --            ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                     ; --            ; --            ; eda_blast_fpga ;
++------------------------------------+---------------------------------------------------------+---------------+---------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:01     ; 1.0                     ; 195 MB              ; 00:00:01                           ;
+; Fitter               ; 00:00:01     ; 1.0                     ; 190 MB              ; 00:00:01                           ;
+; Total                ; 00:00:02     ; --                      ; --                  ; 00:00:02                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; alexsb           ; Windows XP ; 5.1        ; i686           ;
+; Fitter               ; alexsb           ; Windows XP ; 5.1        ; i686           ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off fast_fft -c fast_fft
+quartus_fit --read_settings_files=off --write_settings_files=off fast_fft -c fast_fft
+
+
+

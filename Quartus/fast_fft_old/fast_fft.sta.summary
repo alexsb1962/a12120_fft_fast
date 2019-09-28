@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ifclk'
+Slack : -0.928
+TNS   : -3.875
+
+Type  : Slow 1200mV 85C Model Setup 'pe6'
+Slack : -0.151
+TNS   : -1.278
+
+Type  : Slow 1200mV 85C Model Setup 'sclk'
+Slack : 0.030
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ifclk'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'sclk'
+Slack : 0.476
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pe6'
+Slack : 0.502
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ifclk'
+Slack : -0.791
+TNS   : -2.944
+
+Type  : Slow 1200mV 0C Model Setup 'pe6'
+Slack : -0.064
+TNS   : -0.474
+
+Type  : Slow 1200mV 0C Model Setup 'sclk'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ifclk'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'sclk'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pe6'
+Slack : 0.470
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ifclk'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pe6'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'sclk'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'sclk'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ifclk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pe6'
+Slack : 0.192
+TNS   : 0.000
+
+------------------------------------------------------------

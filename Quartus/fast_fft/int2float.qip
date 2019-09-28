@@ -1,0 +1,7 @@
+set_global_assignment -name IP_TOOL_NAME "ALTFP_CONVERT"
+set_global_assignment -name IP_TOOL_VERSION "9.0"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "int2float.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "int2float.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "int2float_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "int2float_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "int2float.inc"]

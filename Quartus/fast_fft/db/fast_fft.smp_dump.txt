@@ -1,0 +1,150 @@
+
+State Machine - |fast_fft|tact
+Name tact.0101 tact.0100 tact.0011 tact.0010 tact.0001 tact.0000 
+tact.0000 0 0 0 0 0 0 
+tact.0001 0 0 0 0 1 1 
+tact.0010 0 0 0 1 0 1 
+tact.0011 0 0 1 0 0 1 
+tact.0100 0 1 0 0 0 1 
+tact.0101 1 0 0 0 0 1 
+
+State Machine - |fast_fft|m_120
+Name m_120.00 m_120.10 m_120.01 
+m_120.00 0 0 0 
+m_120.01 1 0 1 
+m_120.10 1 1 0 
+
+State Machine - |fast_fft|cypres:cyp_inst|m1
+Name m1.110 m1.101 m1.100 m1.011 m1.010 m1.001 m1.000 
+m1.000 0 0 0 0 0 0 0 
+m1.001 0 0 0 0 0 1 1 
+m1.010 0 0 0 0 1 0 1 
+m1.011 0 0 0 1 0 0 1 
+m1.100 0 0 1 0 0 0 1 
+m1.101 0 1 0 0 0 0 1 
+m1.110 1 0 0 0 0 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|fft_s1_cur
+Name fft_s1_cur.FFT_PROCESS_A fft_s1_cur.NO_WRITE fft_s1_cur.DONE_WRITING fft_s1_cur.EARLY_DONE fft_s1_cur.WRITE_INPUT fft_s1_cur.WAIT_FOR_INPUT fft_s1_cur.IDLE 
+fft_s1_cur.IDLE 0 0 0 0 0 0 0 
+fft_s1_cur.WAIT_FOR_INPUT 0 0 0 0 0 1 1 
+fft_s1_cur.WRITE_INPUT 0 0 0 0 1 0 1 
+fft_s1_cur.EARLY_DONE 0 0 0 1 0 0 1 
+fft_s1_cur.DONE_WRITING 0 0 1 0 0 0 1 
+fft_s1_cur.NO_WRITE 0 1 0 0 0 0 1 
+fft_s1_cur.FFT_PROCESS_A 1 0 0 0 0 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|fft_s2_cur
+Name fft_s2_cur.LPP_DONE fft_s2_cur.LPP_OUTPUT_RDY fft_s2_cur.START_LPP fft_s2_cur.WAIT_FOR_LPP_INPUT fft_s2_cur.IDLE 
+fft_s2_cur.IDLE 0 0 0 0 0 
+fft_s2_cur.WAIT_FOR_LPP_INPUT 0 0 0 1 1 
+fft_s2_cur.START_LPP 0 0 1 0 1 
+fft_s2_cur.LPP_OUTPUT_RDY 0 1 0 0 1 
+fft_s2_cur.LPP_DONE 1 0 0 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|asj_fft_dft_bfp_fft_90:bfpdft_y|asj_fft_bfp_o_fft_90:\gen_disc:bfp_detect|sdetd
+Name sdetd.DISABLE sdetd.SLBI sdetd.GBLK sdetd.ENABLE sdetd.BLOCK_READY sdetd.IDLE 
+sdetd.IDLE 0 0 0 0 0 0 
+sdetd.BLOCK_READY 0 0 0 0 1 1 
+sdetd.ENABLE 0 0 0 1 0 1 
+sdetd.GBLK 0 0 1 0 0 1 
+sdetd.SLBI 0 1 0 0 0 1 
+sdetd.DISABLE 1 0 0 0 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|asj_fft_dft_bfp_fft_90:bfpdft_x|asj_fft_bfp_o_fft_90:\gen_disc:bfp_detect|sdetd
+Name sdetd.DISABLE sdetd.SLBI sdetd.GBLK sdetd.ENABLE sdetd.BLOCK_READY sdetd.IDLE 
+sdetd.IDLE 0 0 0 0 0 0 
+sdetd.BLOCK_READY 0 0 0 0 1 1 
+sdetd.ENABLE 0 0 0 1 0 1 
+sdetd.GBLK 0 0 1 0 0 1 
+sdetd.SLBI 0 1 0 0 0 1 
+sdetd.DISABLE 1 0 0 0 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|asj_fft_wrengen_fft_90:sel_we|wc_state
+Name wc_state.ENABLE wc_state.WAIT_LAT wc_state.IDLE 
+wc_state.IDLE 0 0 0 
+wc_state.WAIT_LAT 0 1 1 
+wc_state.ENABLE 1 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|asj_fft_m_k_counter_fft_90:ctrl|k_state
+Name k_state.HOLD k_state.NEXT_PASS_UPD k_state.RUN_CNT k_state.IDLE 
+k_state.IDLE 0 0 0 0 
+k_state.RUN_CNT 0 0 1 1 
+k_state.NEXT_PASS_UPD 0 1 0 1 
+k_state.HOLD 1 0 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|auk_dspip_avalon_streaming_source_fft_90:auk_dsp_atlantic_source_1|source_state
+Name source_state.end1 source_state.st_err source_state.run1 source_state.sop source_state.start 
+source_state.start 0 0 0 0 0 
+source_state.sop 0 0 0 1 1 
+source_state.run1 0 0 1 0 1 
+source_state.st_err 0 1 0 0 1 
+source_state.end1 1 0 0 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|auk_dspip_avalon_streaming_sink_fft_90:auk_dsp_atlantic_sink_1|sink_out_state
+Name sink_out_state.empty_and_ready sink_out_state.empty_and_not_ready sink_out_state.normal 
+sink_out_state.normal 0 0 0 
+sink_out_state.empty_and_not_ready 0 1 1 
+sink_out_state.empty_and_ready 1 0 1 
+
+State Machine - |fast_fft|fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|auk_dspip_avalon_streaming_sink_fft_90:auk_dsp_atlantic_sink_1|sink_state
+Name sink_state.end1 sink_state.st_err sink_state.run1 sink_state.stall sink_state.start 
+sink_state.start 0 0 0 0 0 
+sink_state.stall 0 0 0 1 1 
+sink_state.run1 0 0 1 0 1 
+sink_state.st_err 0 1 0 0 1 
+sink_state.end1 1 0 0 0 1 
+
+State Machine - |fast_fft|sincos:sc|fir16:fir_cos|fir16_ast:fir16_ast_inst|auk_dspip_avalon_streaming_source_fir_90:source|source_state
+Name source_state.end1 source_state.st_err source_state.run1 source_state.sop source_state.start 
+source_state.start 0 0 0 0 0 
+source_state.sop 0 0 0 1 1 
+source_state.run1 0 0 1 0 1 
+source_state.st_err 0 1 0 0 1 
+source_state.end1 1 0 0 0 1 
+
+State Machine - |fast_fft|sincos:sc|fir16:fir_cos|fir16_ast:fir16_ast_inst|auk_dspip_avalon_streaming_sink_fir_90:sink|sink_out_state
+Name sink_out_state.empty_and_ready sink_out_state.empty_and_not_ready sink_out_state.normal 
+sink_out_state.normal 0 0 0 
+sink_out_state.empty_and_not_ready 0 1 1 
+sink_out_state.empty_and_ready 1 0 1 
+
+State Machine - |fast_fft|sincos:sc|fir16:fir_cos|fir16_ast:fir16_ast_inst|auk_dspip_avalon_streaming_sink_fir_90:sink|sink_state
+Name sink_state.end1 sink_state.st_err sink_state.run1 sink_state.stall sink_state.start 
+sink_state.start 0 0 0 0 0 
+sink_state.stall 0 0 0 1 1 
+sink_state.run1 0 0 1 0 1 
+sink_state.st_err 0 1 0 0 1 
+sink_state.end1 1 0 0 0 1 
+
+State Machine - |fast_fft|sincos:sc|fir16:fir_cos|fir16_ast:fir16_ast_inst|auk_dspip_avalon_streaming_sink_fir_90:sink|scfifo:\normal_fifo:fifo_eab_off:in_fifo|sm_almost_full
+Name state_af 
+state_naf 0 
+state_af 1 
+
+State Machine - |fast_fft|sincos:sc|fir16:fir_sin|fir16_ast:fir16_ast_inst|auk_dspip_avalon_streaming_source_fir_90:source|source_state
+Name source_state.end1 source_state.st_err source_state.run1 source_state.sop source_state.start 
+source_state.start 0 0 0 0 0 
+source_state.sop 0 0 0 1 1 
+source_state.run1 0 0 1 0 1 
+source_state.st_err 0 1 0 0 1 
+source_state.end1 1 0 0 0 1 
+
+State Machine - |fast_fft|sincos:sc|fir16:fir_sin|fir16_ast:fir16_ast_inst|auk_dspip_avalon_streaming_sink_fir_90:sink|sink_out_state
+Name sink_out_state.empty_and_ready sink_out_state.empty_and_not_ready sink_out_state.normal 
+sink_out_state.normal 0 0 0 
+sink_out_state.empty_and_not_ready 0 1 1 
+sink_out_state.empty_and_ready 1 0 1 
+
+State Machine - |fast_fft|sincos:sc|fir16:fir_sin|fir16_ast:fir16_ast_inst|auk_dspip_avalon_streaming_sink_fir_90:sink|sink_state
+Name sink_state.end1 sink_state.st_err sink_state.run1 sink_state.stall sink_state.start 
+sink_state.start 0 0 0 0 0 
+sink_state.stall 0 0 0 1 1 
+sink_state.run1 0 0 1 0 1 
+sink_state.st_err 0 1 0 0 1 
+sink_state.end1 1 0 0 0 1 
+
+State Machine - |fast_fft|sincos:sc|fir16:fir_sin|fir16_ast:fir16_ast_inst|auk_dspip_avalon_streaming_sink_fir_90:sink|scfifo:\normal_fifo:fifo_eab_off:in_fifo|sm_almost_full
+Name state_af 
+state_naf 0 
+state_af 1 

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jul 14 16:55:55 2010
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : fast_fft
+Top-level Entity Name : fast_fft
+Family : Cyclone III
+Device : EP3C25Q240C8
+Timing Models : Final
+Total logic elements : 22,261 / 24,624 ( 90 % )
+    Total combinational functions : 18,708 / 24,624 ( 76 % )
+    Dedicated logic registers : 15,706 / 24,624 ( 64 % )
+Total registers : 15706
+Total pins : 127 / 149 ( 85 % )
+Total virtual pins : 0
+Total memory bits : 484,096 / 608,256 ( 80 % )
+Embedded Multiplier 9-bit elements : 74 / 132 ( 56 % )
+Total PLLs : 0 / 4 ( 0 % )

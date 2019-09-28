@@ -1,0 +1,37 @@
+# ACCEL PCB V19.02.9589 Auto-Generated DO File
+# Sun Feb 10 22:20:09 2008
+#
+bestsave on $\best.w
+status_file $\progress.sts
+#
+unit mil
+#
+grid wire 1.000000 
+grid via 25.000000 
+#
+rule pcb (width 7.9)
+protect all wires
+via_at_smd off
+#force_via  (layer Top) (grid 5.000000) (use_via d05d10) (pin_allow off)
+#force_via  (layer Bottom) (grid 5.000000) (use_via d05d10) (pin_allow off)
+cost via high
+#
+bus diagonal
+route 50
+clean 4
+route 50 16
+clean 4
+filter 5
+route 100 16
+clean 2
+delete conflicts
+#
+stop
+write wire $\12120_ep3_pcb4.w
+spread 
+miter
+write wire $\12120_ep3_pcb4.m
+#
+write session $\12120_ep3_pcb4.ses
+report status $\12120_ep3_pcb4.sts
+stop

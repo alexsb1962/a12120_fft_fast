@@ -1,0 +1,314 @@
+ -- Copyright (C) 1991-2009 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		0V
+ --					Bank 2:		0V
+ --					Bank 3:		0V
+ --					Bank 4:		0V
+ --					Bank 5:		0V
+ --					Bank 6:		0V
+ --					Bank 7:		0V
+ --					Bank 8:		0V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   For transceiver I/O banks (Bank 13, 14, 15, 16 and 17),
+ --           	    connect each pin marked GND* either individually through a 10k Ohm resistor
+ --           	    to GND or tie all pins together and connect through a single 10k Ohm resistor
+ --           	    to GND.
+ --           	    For non-transceiver I/O banks, connect each pin marked GND* directly to GND
+ --           	    or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+CHIP  "fast_fft"  ASSIGNED TO AN: EP3C25Q240C8
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCD_PLL3                    : 1         : power  :                   :         :           :                
+GNDA3                        : 2         : gnd    :                   :         :           :                
+VCCA3                        : 3         : power  :                   :         :           :                
+GND*                         : 4         :        :                   :         : 1         :                
+GND*                         : 5         :        :                   :         : 1         :                
+GND*                         : 6         :        :                   :         : 1         :                
+VCCIO1                       : 7         : power  :                   :         : 1         :                
+GND                          : 8         : gnd    :                   :         :           :                
+GND*                         : 9         :        :                   :         : 1         :                
+VCCINT                       : 10        : power  :                   :         :           :                
+GND                          : 11        : gnd    :                   :         :           :                
+GND*                         : 12        :        :                   :         : 1         :                
+GND*                         : 13        :        :                   :         : 1         :                
+GND*                         : 14        :        :                   :         : 1         :                
+VCCIO1                       : 15        : power  :                   :         : 1         :                
+GND                          : 16        : gnd    :                   :         :           :                
+nSTATUS                      : 17        :        :                   :         : 1         :                
+GND*                         : 18        :        :                   :         : 1         :                
+VCCINT                       : 19        : power  :                   :         :           :                
+GND                          : 20        : gnd    :                   :         :           :                
+GND*                         : 21        :        :                   :         : 1         :                
+GND*                         : 22        :        :                   :         : 1         :                
+GND*                         : 23        :        :                   :         : 1         :                
+GND*                         : 24        :        :                   :         : 1         :                
+nCONFIG                      : 25        :        :                   :         : 1         :                
+TDI                          : 26        : input  :                   :         : 1         :                
+TCK                          : 27        : input  :                   :         : 1         :                
+TMS                          : 28        : input  :                   :         : 1         :                
+TDO                          : 29        : output :                   :         : 1         :                
+nCE                          : 30        :        :                   :         : 1         :                
+GND+                         : 31        :        :                   :         : 1         :                
+GND+                         : 32        :        :                   :         : 1         :                
+GND+                         : 33        :        :                   :         : 2         :                
+GND+                         : 34        :        :                   :         : 2         :                
+VCCIO2                       : 35        : power  :                   :         : 2         :                
+GND                          : 36        : gnd    :                   :         :           :                
+GND*                         : 37        :        :                   :         : 2         :                
+GND*                         : 38        :        :                   :         : 2         :                
+GND*                         : 39        :        :                   :         : 2         :                
+VCCINT                       : 40        : power  :                   :         :           :                
+GND*                         : 41        :        :                   :         : 2         :                
+GND                          : 42        : gnd    :                   :         :           :                
+GND*                         : 43        :        :                   :         : 2         :                
+GND*                         : 44        :        :                   :         : 2         :                
+GND*                         : 45        :        :                   :         : 2         :                
+GND*                         : 46        :        :                   :         : 2         :                
+VCCIO2                       : 47        : power  :                   :         : 2         :                
+GND                          : 48        : gnd    :                   :         :           :                
+GND*                         : 49        :        :                   :         : 2         :                
+GND*                         : 50        :        :                   :         : 2         :                
+GND*                         : 51        :        :                   :         : 2         :                
+GND*                         : 52        :        :                   :         : 2         :                
+VCCINT                       : 53        : power  :                   :         :           :                
+GND                          : 54        : gnd    :                   :         :           :                
+GND*                         : 55        :        :                   :         : 2         :                
+GND*                         : 56        :        :                   :         : 2         :                
+GND*                         : 57        :        :                   :         : 2         :                
+VCCA1                        : 58        : power  :                   :         :           :                
+GNDA1                        : 59        : gnd    :                   :         :           :                
+VCCD_PLL1                    : 60        : power  :                   :         :           :                
+VCCINT                       : 61        : power  :                   :         :           :                
+GND                          : 62        : gnd    :                   :         :           :                
+GND*                         : 63        :        :                   :         : 3         :                
+GND*                         : 64        :        :                   :         : 3         :                
+GND*                         : 65        :        :                   :         : 3         :                
+VCCIO3                       : 66        : power  :                   :         : 3         :                
+GND                          : 67        : gnd    :                   :         :           :                
+GND*                         : 68        :        :                   :         : 3         :                
+GND*                         : 69        :        :                   :         : 3         :                
+GND*                         : 70        :        :                   :         : 3         :                
+GND*                         : 71        :        :                   :         : 3         :                
+GND*                         : 72        :        :                   :         : 3         :                
+GND*                         : 73        :        :                   :         : 3         :                
+VCCINT                       : 74        : power  :                   :         :           :                
+GND                          : 75        : gnd    :                   :         :           :                
+GND*                         : 76        :        :                   :         : 3         :                
+VCCIO3                       : 77        : power  :                   :         : 3         :                
+GND*                         : 78        :        :                   :         : 3         :                
+GND                          : 79        : gnd    :                   :         :           :                
+GND*                         : 80        :        :                   :         : 3         :                
+GND*                         : 81        :        :                   :         : 3         :                
+GND*                         : 82        :        :                   :         : 3         :                
+GND*                         : 83        :        :                   :         : 3         :                
+GND*                         : 84        :        :                   :         : 3         :                
+VCCINT                       : 85        : power  :                   :         :           :                
+GND                          : 86        : gnd    :                   :         :           :                
+GND*                         : 87        :        :                   :         : 3         :                
+GND*                         : 88        :        :                   :         : 3         :                
+GND+                         : 89        :        :                   :         : 3         :                
+GND+                         : 90        :        :                   :         : 3         :                
+GND+                         : 91        :        :                   :         : 4         :                
+GND+                         : 92        :        :                   :         : 4         :                
+GND*                         : 93        :        :                   :         : 4         :                
+GND*                         : 94        :        :                   :         : 4         :                
+GND*                         : 95        :        :                   :         : 4         :                
+VCCIO4                       : 96        : power  :                   :         : 4         :                
+GND                          : 97        : gnd    :                   :         :           :                
+GND*                         : 98        :        :                   :         : 4         :                
+GND*                         : 99        :        :                   :         : 4         :                
+GND*                         : 100       :        :                   :         : 4         :                
+VCCINT                       : 101       : power  :                   :         :           :                
+GND                          : 102       : gnd    :                   :         :           :                
+GND*                         : 103       :        :                   :         : 4         :                
+VCCIO4                       : 104       : power  :                   :         : 4         :                
+GND                          : 105       : gnd    :                   :         :           :                
+GND*                         : 106       :        :                   :         : 4         :                
+GND*                         : 107       :        :                   :         : 4         :                
+GND*                         : 108       :        :                   :         : 4         :                
+GND*                         : 109       :        :                   :         : 4         :                
+GND*                         : 110       :        :                   :         : 4         :                
+GND*                         : 111       :        :                   :         : 4         :                
+GND*                         : 112       :        :                   :         : 4         :                
+GND*                         : 113       :        :                   :         : 4         :                
+GND*                         : 114       :        :                   :         : 4         :                
+VCCINT                       : 115       : power  :                   :         :           :                
+GND                          : 116       : gnd    :                   :         :           :                
+GND*                         : 117       :        :                   :         : 4         :                
+GND*                         : 118       :        :                   :         : 4         :                
+GND*                         : 119       :        :                   :         : 4         :                
+GND*                         : 120       :        :                   :         : 4         :                
+VCCD_PLL4                    : 121       : power  :                   :         :           :                
+GNDA4                        : 122       : gnd    :                   :         :           :                
+VCCA4                        : 123       : power  :                   :         :           :                
+VCCIO5                       : 124       : power  :                   :         : 5         :                
+GND                          : 125       : gnd    :                   :         :           :                
+GND*                         : 126       :        :                   :         : 5         :                
+GND*                         : 127       :        :                   :         : 5         :                
+GND*                         : 128       :        :                   :         : 5         :                
+VCCINT                       : 129       : power  :                   :         :           :                
+GND                          : 130       : gnd    :                   :         :           :                
+GND*                         : 131       :        :                   :         : 5         :                
+GND*                         : 132       :        :                   :         : 5         :                
+GND*                         : 133       :        :                   :         : 5         :                
+GND*                         : 134       :        :                   :         : 5         :                
+GND*                         : 135       :        :                   :         : 5         :                
+VCCIO5                       : 136       : power  :                   :         : 5         :                
+GND*                         : 137       :        :                   :         : 5         :                
+GND                          : 138       : gnd    :                   :         :           :                
+GND*                         : 139       :        :                   :         : 5         :                
+VCCINT                       : 140       : power  :                   :         :           :                
+GND                          : 141       : gnd    :                   :         :           :                
+GND*                         : 142       :        :                   :         : 5         :                
+GND*                         : 143       :        :                   :         : 5         :                
+GND*                         : 144       :        :                   :         : 5         :                
+GND*                         : 145       :        :                   :         : 5         :                
+GND*                         : 146       :        :                   :         : 5         :                
+GND*                         : 147       :        :                   :         : 5         :                
+GND*                         : 148       :        :                   :         : 5         :                
+GND+                         : 149       :        :                   :         : 5         :                
+GND+                         : 150       :        :                   :         : 5         :                
+GND+                         : 151       :        :                   :         : 6         :                
+GND+                         : 152       :        :                   :         : 6         :                
+CONF_DONE                    : 153       :        :                   :         : 6         :                
+VCCIO6                       : 154       : power  :                   :         : 6         :                
+MSEL0                        : 155       :        :                   :         : 6         :                
+GND                          : 156       : gnd    :                   :         :           :                
+MSEL1                        : 157       :        :                   :         : 6         :                
+MSEL2                        : 158       :        :                   :         : 6         :                
+GND*                         : 159       :        :                   :         : 6         :                
+GND*                         : 160       :        :                   :         : 6         :                
+GND*                         : 161       :        :                   :         : 6         :                
+GND*                         : 162       :        :                   :         : 6         :                
+VCCINT                       : 163       : power  :                   :         :           :                
+GND*                         : 164       :        :                   :         : 6         :                
+GND                          : 165       : gnd    :                   :         :           :                
+GND*                         : 166       :        :                   :         : 6         :                
+GND*                         : 167       :        :                   :         : 6         :                
+GND*                         : 168       :        :                   :         : 6         :                
+GND*                         : 169       :        :                   :         : 6         :                
+VCCIO6                       : 170       : power  :                   :         : 6         :                
+GND*                         : 171       :        :                   :         : 6         :                
+GND                          : 172       : gnd    :                   :         :           :                
+GND*                         : 173       :        :                   :         : 6         :                
+VCCINT                       : 174       : power  :                   :         :           :                
+GND                          : 175       : gnd    :                   :         :           :                
+GND*                         : 176       :        :                   :         : 6         :                
+GND*                         : 177       :        :                   :         : 6         :                
+VCCA2                        : 178       : power  :                   :         :           :                
+GNDA2                        : 179       : gnd    :                   :         :           :                
+VCCD_PLL2                    : 180       : power  :                   :         :           :                
+GND*                         : 181       :        :                   :         : 7         :                
+GND*                         : 182       :        :                   :         : 7         :                
+GND*                         : 183       :        :                   :         : 7         :                
+GND*                         : 184       :        :                   :         : 7         :                
+GND*                         : 185       :        :                   :         : 7         :                
+GND*                         : 186       :        :                   :         : 7         :                
+GND*                         : 187       :        :                   :         : 7         :                
+GND*                         : 188       :        :                   :         : 7         :                
+GND*                         : 189       :        :                   :         : 7         :                
+VCCINT                       : 190       : power  :                   :         :           :                
+GND                          : 191       : gnd    :                   :         :           :                
+VCCIO7                       : 192       : power  :                   :         : 7         :                
+GND                          : 193       : gnd    :                   :         :           :                
+GND*                         : 194       :        :                   :         : 7         :                
+GND*                         : 195       :        :                   :         : 7         :                
+GND*                         : 196       :        :                   :         : 7         :                
+GND*                         : 197       :        :                   :         : 7         :                
+VCCINT                       : 198       : power  :                   :         :           :                
+GND                          : 199       : gnd    :                   :         :           :                
+GND*                         : 200       :        :                   :         : 7         :                
+GND*                         : 201       :        :                   :         : 7         :                
+GND*                         : 202       :        :                   :         : 7         :                
+GND*                         : 203       :        :                   :         : 7         :                
+VCCINT                       : 204       : power  :                   :         :           :                
+GND                          : 205       : gnd    :                   :         :           :                
+VCCIO7                       : 206       : power  :                   :         : 7         :                
+GND*                         : 207       :        :                   :         : 7         :                
+GND                          : 208       : gnd    :                   :         :           :                
+GND+                         : 209       :        :                   :         : 7         :                
+GND+                         : 210       :        :                   :         : 7         :                
+GND+                         : 211       :        :                   :         : 8         :                
+GND+                         : 212       :        :                   :         : 8         :                
+VCCIO8                       : 213       : power  :                   :         : 8         :                
+GND*                         : 214       :        :                   :         : 8         :                
+GND                          : 215       : gnd    :                   :         :           :                
+GND*                         : 216       :        :                   :         : 8         :                
+GND*                         : 217       :        :                   :         : 8         :                
+GND*                         : 218       :        :                   :         : 8         :                
+GND*                         : 219       :        :                   :         : 8         :                
+VCCINT                       : 220       : power  :                   :         :           :                
+GND*                         : 221       :        :                   :         : 8         :                
+GND                          : 222       : gnd    :                   :         :           :                
+GND*                         : 223       :        :                   :         : 8         :                
+GND*                         : 224       :        :                   :         : 8         :                
+VCCIO8                       : 225       : power  :                   :         : 8         :                
+GND*                         : 226       :        :                   :         : 8         :                
+GND                          : 227       : gnd    :                   :         :           :                
+VCCINT                       : 228       : power  :                   :         :           :                
+GND                          : 229       : gnd    :                   :         :           :                
+GND*                         : 230       :        :                   :         : 8         :                
+GND*                         : 231       :        :                   :         : 8         :                
+GND*                         : 232       :        :                   :         : 8         :                
+GND*                         : 233       :        :                   :         : 8         :                
+GND*                         : 234       :        :                   :         : 8         :                
+GND*                         : 235       :        :                   :         : 8         :                
+GND*                         : 236       :        :                   :         : 8         :                
+GND*                         : 237       :        :                   :         : 8         :                
+GND*                         : 238       :        :                   :         : 8         :                
+GND*                         : 239       :        :                   :         : 8         :                
+GND*                         : 240       :        :                   :         : 8         :                

@@ -1,0 +1,8 @@
+GetXmlFile.cpp: SendHttpViaUsb> Couldn't OpenBulk, re-trying (0)
+GetXmlFile.cpp: SendHttpViaUsb> Couldn't OpenBulk, re-trying (1)
+GetXmlFile.cpp: SendHttpViaUsb> Couldn't OpenBulk, re-trying (2)
+GetXmlFile.cpp: SendHttpViaUsb> Couldn't OpenBulk, re-trying (3)
+GetXmlFile.cpp: SendHttpViaUsb> Couldn't OpenBulk, re-trying (4)
+GetXmlFile.cpp: SendHttpViaUsb> Couldn't OpenBulk for USB after several retries
+GetXmlFile.cpp: SetupLogging> 172->Getting the original XML data failed over CompChannel
+

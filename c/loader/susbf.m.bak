@@ -1,0 +1,24 @@
+function var=susb()
+len=8192;
+dos('debug\loader.exe '    );
+fres=fopen('resultf.bin','r');
+exp2=fread(fres,1,'int16');
+exp2=fread(fres,1,'int16');
+mas=fread(fres,inf,'float32');
+exp2=-exp2;
+exp2=exp2;
+k= (2^( exp2 ))/len ;
+lk=log(k);
+l10=log(10); 
+for i=1:len;
+     mas(i)=(mas(i)*0.5 + lk) /log(10)*20  ;
+%     mas(i)= mas(i)    ;
+end;
+fclose(fres);
+m(1:len/2-1)=mas(len/2-1:-1:1);
+m(len/2:len-1)=mas(len-1:-1:len/2);
+plot( m (1:len-1) ),grid;
+%axis([0,len,-3,-1]);
+zoom xon;
+var=exp2;
+

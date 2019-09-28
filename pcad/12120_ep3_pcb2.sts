@@ -1,0 +1,34 @@
+#SPECCTRA ShapeBased Automation Software V15.0 made 2003/06/17 at 16:13:59
+#Host 
+#PLACEMENT STATUS <<< .\12120_ep3_pcb2.DSN >>>
+Start  Time: Report Time: Sat Feb 09 23:18:25 2008
+
+| PLACEMENT HISTORY ===========================================================
+|             Action         |Conf-|Placed| Total  Length |      CPU Time     |
+|       Command        |Times|licts|      |    ( mil)     |  Pass   |  Total  |
+|----------------------+-----+-----+------+---------------+---------|---------|
+|Check                 |    1|   24|   203|    519023.5354|  0:00:00|  0:00:00|
+|Initplace             |    1|  119|   206|    623762.4094|  0:00:01|  0:00:01|
+|Autodiscrete Small    |    1|  119|   207|    621480.5197|  0:00:00|  0:00:01|
+|Interchange Large     |    1|  118|   207|    599442.4488|  0:00:00|  0:00:01|
+|Interchange Large     |    2|  118|   207|    599442.4488|  0:00:00|  0:00:01|
+|Interchange Small     |    1|  103|   207|    518511.7402|  0:00:00|  0:00:01|
+|Interchange Small     |    2|   99|   207|    489667.8819|  0:00:00|  0:00:01|
+|Interchange Small     |    3|   93|   207|    483255.7559|  0:00:01|  0:00:02|
+|Interchange Small     |    4|   93|   207|    476897.0551|  0:00:00|  0:00:02|
+|Interchange Small     |    5|   92|   207|    480679.1417|  0:00:00|  0:00:02|
+|Interchange Small     |    6|   92|   207|    480293.7087|  0:00:01|  0:00:03|
+|Interchange Small     |    7|   92|   207|    480362.0157|  0:00:00|  0:00:03|
+|Interchange Small     |    8|   92|   207|    476285.9134|  0:00:00|  0:00:03|
+|Interchange Small     |    9|   92|   207|    476488.2756|  0:00:01|  0:00:04|
+|Interchange Small     |   10|   92|   207|    474072.0551|  0:00:00|  0:00:04|
+|Autorotate All        |    1|   57|   207|    472986.9370|  0:00:00|  0:00:04|
+
+# Overall Placement Time:  0:00:04
+#PLACEMENT STATISTICS==========================================================
+Components     =        207
+Placed         =        207
+Not Placed     =          0
+Completion     =   100.0000%
+All Violations =         57
+Total from-to length including wires/vias   =     472986.9370 mil

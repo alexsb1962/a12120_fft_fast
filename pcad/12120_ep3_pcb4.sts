@@ -1,0 +1,59 @@
+#SPECCTRA ShapeBased Automation Software V15.0 made 2003/06/17 at 16:13:59
+#Host 
+#ROUTING STATUS <<< .\12120_ep3_pcb4.DSN >>>
+Start  Time: Report Time: Tue Apr 08 10:51:11 2008
+
+Nets         =      247   Connections         =      745
+Current Wire =        0   Reroute wires       =      829
+Completion   =  100.00%   Unconnections       =        0
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Bus      |  0|     0|     0|  14|  732|    4|    0|   0|   |  0:00:00|  0:00:00|
+| Route    |  1|   526|   181|   5|    5|  477|    0|   0|  0|  0:00:01|  0:00:01|
+| Route    |  2|   271|    38|   7|    0|  502|    0|   0| 56|  0:00:01|  0:00:02|
+| Route    |  3|   160|    14|   3|    0|  523|    0|   0| 43|  0:00:02|  0:00:04|
+| Route    |  4|    84|     9|   3|    0|  522|    0|   0| 46|  0:00:01|  0:00:05|
+| Route    |  5|    48|     3|   1|    0|  524|    0|   0| 45|  0:00:01|  0:00:06|
+| Route    |  6|    13|     4|   0|    0|  539|    0|   0| 66|  0:00:01|  0:00:07|
+| Route    |  7|     0|     2|   0|    0|  538|    0|   0| 88|  0:00:00|  0:00:07|
+| Route    |  8|     0|     1|   0|    0|  539|    0|   0| 50|  0:00:01|  0:00:08|
+| Route    |  9|     0|     0|   0|    0|  539|    0|   0|100|  0:00:00|  0:00:08|
+| Clean    | 10|     0|     0|   8|    0|  531|    0|   0|   |  0:00:01|  0:00:09|
+| Clean    | 11|     0|     0|   8|    0|  531|    0|   0|   |  0:00:00|  0:00:09|
+| Clean    | 12|     0|     0|   7|    0|  530|    0|   0|   |  0:00:01|  0:00:10|
+| Clean    | 13|     0|     0|  11|    0|  528|    0|   0|   |  0:00:01|  0:00:11|
+| Route    | 14|     0|     0|   0|    0|  528|    0|   0|  0|  0:00:00|  0:00:11|
+| Clean    | 15|     0|     0|   9|    0|  527|    0|   0|   |  0:00:01|  0:00:12|
+| Clean    | 16|     0|     0|  12|    0|  525|    0|   0|   |  0:00:00|  0:00:12|
+| Clean    | 17|     0|     0|   9|    0|  524|    0|   0|   |  0:00:01|  0:00:13|
+| Clean    | 18|     0|     0|  11|    0|  520|    0|   0|   |  0:00:01|  0:00:14|
+| Filter   | 19|     0|     0|   0|    0|  520|    0|   0|  0|  0:00:00|  0:00:14|
+| Route    | 20|     0|     0|   0|    0|  520|    0|   0|  0|  0:00:00|  0:00:14|
+| Clean    | 21|     0|     0|   9|    0|  521|    0|   0|   |  0:00:01|  0:00:15|
+| Clean    | 22|     0|     0|  13|    0|  516|    0|   0|   |  0:00:01|  0:00:16|
+| Delete   | 22|     0|     0|   0|    0|  516|    0|   0|   |  0:00:00|  0:00:16|
+| Spread   | 22|     0|     0|   0|    0|  516|    0|   0|   |  0:00:00|  0:00:16|
+| Miter    | 22|     0|     0|   0|    0|  516|    0|   0|   |  0:00:02|  0:00:18|
+| Conflicts between polygon wires and fixed objects:   0
+| Stub Violations:   0
+| Net Order Violations:   0
+| Diffpair Uncoupled Length Violations:   0
+| Diffpair Phase Tolerance  Violations:   0
+| Total layerset violations:   0
+| Total layerset violations (exclude Fanout/Stagger):   0
+# Overall Routing Time:  0:00:18
+#WIRING STATISTICS================================================================
+ PCB Area=41850083.700  EIC=79  Area/EIC=529747.895
+ Components=213  SMDs=178
+ Signal Layers=2 Power Layers=2
+ Wire Junctions=102, at vias=34  Total Vias=516
+ Conflicts=0   Crossovers=0, Clearances=0, Crosstalk=0, Length=0
+ Manhattan length=238100.252  Horizontal=147583.152  Vertical=90517.100
+ Routed length=302123.627  Horizontal=187343.222  Vertical=143698.283
+ Ratio Actual / Manhattan= 1.2689
+ Unconnected length=    0.000  Horizontal=    0.000  Vertical=    0.000
+ Layer Direct Pins Vias  TJs Conflicts  Length  Horizontal  Vertical 
+   Top  Horz   681  516   37       0  185449.300 115465.236 87945.969
+ Bottom  Vert   406  516   31       0  116674.327 71877.986 55752.315

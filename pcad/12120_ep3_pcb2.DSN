@@ -1,0 +1,2582 @@
+(PCB D:\adc\asvm12120_new\pcad\12120_ep3_pcb2.DSN
+ (parser
+  (host_cad Altium)
+  (host_version 18.00)
+  (string_quote ')
+  (routes_include testpoint)
+  (constant Top 1)
+  (constant Bottom 2)
+  (constant TestPointLayerNumFront 10)
+  (constant TestPointLayerNumBack 11)
+ )
+ (resolution MM 100000)
+ (structure 
+  (rule (clearance 0.3048))
+  (boundary
+   (rect pcb 1111.0 631.0 1309.0 799.0)
+  )
+  (boundary
+   (path signal 0
+    1120.0 640.0 1300.0 640.0 1300.0 790.0 1120.0 790.0 1120.0 640.0
+   )
+  )
+  (layer Top
+   (type signal)
+   (rule (clearance 0.2))
+  )
+  (layer ind_vcc
+   (type power)
+   (use_net 3.3V)
+   (rule (clearance 0.3))
+  )
+  (layer ind_gnd
+   (type power)
+   (use_net 0V)
+   (rule (clearance 0.4))
+  )
+  (layer Bottom
+   (type signal)
+   (rule (clearance 0.2))
+  )
+  (grid via .01)
+  (grid wire .01)
+  (rule (width 0.254))
+  (via
+   'CCTVIA_(Default)'
+   (spare
+    d32d50
+   )
+  )
+ )
+ (placement
+  (component CAP0805_1
+   (place C1 1127.54 777.22 front 0
+   )
+   (place C10 1172.54 777.22 front 0
+   )
+   (place C100 1204.28 744.04 back -0
+   )
+   (place C101 1199.28 744.04 back -0
+   )
+   (place C104 1216.2 784.52 front 0
+   )
+   (place C105 1221.2 784.52 front 0
+   )
+   (place C107 1215.72 774.36 front 0
+   )
+   (place C108 1220.72 774.36 front 0
+   )
+   (place C109 1225.72 774.36 front 0
+   )
+   (place C11 1177.54 777.22 front 0
+   )
+   (place C110 1231.99 752.77 front 0
+   )
+   (place C111 1236.99 752.77 front 0
+   )
+   (place C112 1241.99 752.77 front 0
+   )
+   (place C113 1246.99 752.77 front 0
+   )
+   (place C114 1232.94 755.31 front 0
+   )
+   (place C115 1237.94 755.31 front 0
+   )
+   (place C116 1242.94 755.31 front 0
+   )
+   (place C12 1192.7 670.54 front 0
+   )
+   (place C13 1197.7 670.54 front 0
+   )
+   (place C15 1212.7 670.54 front 0
+   )
+   (place C16 1225.78 673.08 back -0
+   )
+   (place C17 1220.78 673.08 back -0
+   )
+   (place C18 1215.78 673.08 back -0
+   )
+   (place C19 1210.78 673.08 back -0
+   )
+   (place C2 1132.54 777.22 front 0
+   )
+   (place C20 1205.78 673.08 back -0
+   )
+   (place C21 1200.78 673.08 back -0
+   )
+   (place C22 1195.78 673.08 back -0
+   )
+   (place C23 1190.78 673.08 back -0
+   )
+   (place C24 1185.78 673.08 back -0
+   )
+   (place C25 1166.18 655.3 front 0
+   )
+   (place C26 1171.18 655.3 front 0
+   )
+   (place C27 1176.18 655.3 front 0
+   )
+   (place C28 1181.18 655.3 front 0
+   )
+   (place C29 1239.52 680.7 front 0
+   )
+   (place C3 1137.54 777.22 front 0
+   )
+   (place C30 1244.52 680.7 front 0
+   )
+   (place C31 1249.52 680.7 front 0
+   )
+   (place C32 1209.28 734.04 back -0
+   )
+   (place C33 1204.28 734.04 back -0
+   )
+   (place C34 1199.28 734.04 back -0
+   )
+   (place C35 1194.28 734.04 back -0
+   )
+   (place C36 1127.54 782.22 front 0
+   )
+   (place C37 1132.54 782.22 front 0
+   )
+   (place C38 1137.54 782.22 front 0
+   )
+   (place C39 1142.54 782.22 front 0
+   )
+   (place C4 1142.54 777.22 front 0
+   )
+   (place C40 1147.54 782.22 front 0
+   )
+   (place C41 1152.54 782.22 front 0
+   )
+   (place C42 1157.54 782.22 front 0
+   )
+   (place C43 1162.54 782.22 front 0
+   )
+   (place C44 1167.54 782.22 front 0
+   )
+   (place C45 1172.54 782.22 front 0
+   )
+   (place C46 1177.54 782.22 front 0
+   )
+   (place C47 1192.7 675.54 front 0
+   )
+   (place C48 1197.7 675.54 front 0
+   )
+   (place C49 1202.7 675.54 front 0
+   )
+   (place C5 1147.54 777.22 front 0
+   )
+   (place C50 1207.7 675.54 front 0
+   )
+   (place C51 1212.7 675.54 front 0
+   )
+   (place C52 1225.78 678.08 back -0
+   )
+   (place C53 1220.78 678.08 back -0
+   )
+   (place C54 1215.78 678.08 back -0
+   )
+   (place C55 1210.78 678.08 back -0
+   )
+   (place C56 1205.78 678.08 back -0
+   )
+   (place C57 1200.78 678.08 back -0
+   )
+   (place C58 1195.78 678.08 back -0
+   )
+   (place C59 1190.78 678.08 back -0
+   )
+   (place C6 1152.54 777.22 front 0
+   )
+   (place C60 1185.78 678.08 back -0
+   )
+   (place C61 1166.18 660.3 front 0
+   )
+   (place C62 1171.18 660.3 front 0
+   )
+   (place C63 1176.18 660.3 front 0
+   )
+   (place C64 1181.18 660.3 front 0
+   )
+   (place C65 1239.52 685.7 front 0
+   )
+   (place C66 1244.52 685.7 front 0
+   )
+   (place C67 1249.52 685.7 front 0
+   )
+   (place C68 1209.28 739.04 back -0
+   )
+   (place C69 1204.28 739.04 back -0
+   )
+   (place C7 1157.54 777.22 front 0
+   )
+   (place C70 1199.28 739.04 back -0
+   )
+   (place C71 1194.28 739.04 back -0
+   )
+   (place C72 1127.54 787.22 front 0
+   )
+   (place C73 1132.54 787.22 front 0
+   )
+   (place C74 1137.54 787.22 front 0
+   )
+   (place C75 1142.54 787.22 front 0
+   )
+   (place C76 1147.54 787.22 front 0
+   )
+   (place C77 1152.54 787.22 front 0
+   )
+   (place C78 1157.54 787.22 front 0
+   )
+   (place C79 1162.54 787.22 front 0
+   )
+   (place C8 1162.54 777.22 front 0
+   )
+   (place C80 1167.54 787.22 front 0
+   )
+   (place C81 1172.54 787.22 front 0
+   )
+   (place C82 1177.54 787.22 front 0
+   )
+   (place C83 1192.7 680.54 front 0
+   )
+   (place C84 1197.7 680.54 front 0
+   )
+   (place C85 1202.7 680.54 front 0
+   )
+   (place C86 1207.7 680.54 front 0
+   )
+   (place C87 1212.7 680.54 front 0
+   )
+   (place C88 1225.78 683.08 back -0
+   )
+   (place C89 1220.78 683.08 back -0
+   )
+   (place C9 1167.54 777.22 front 0
+   )
+   (place C90 1215.78 683.08 back -0
+   )
+   (place C91 1210.78 683.08 back -0
+   )
+   (place C92 1205.78 683.08 back -0
+   )
+   (place C93 1200.78 683.08 back -0
+   )
+   (place C94 1195.78 683.08 back -0
+   )
+   (place C97 1244.52 690.7 front 0
+   )
+   (place C98 1249.52 690.7 front 0
+   )
+   (place C99 1209.28 744.04 back -0
+   )
+  )
+  (component AVX_D_1
+   (place C102 1228.09 745.49 front 0
+   )
+   (place C103 1236.98 665.48 front 0
+   )
+   (place C106 1221.74 662.94 front 0
+   )
+   (place C95 1223.01 706.12 front 0
+   )
+   (place C96 1230.63 697.23 front 0
+   )
+  )
+  (component AVX_B_1
+   (place C14 1216.66 779.78 front 0
+   )
+  )
+  (component 'LM2676(TO_263)_1'
+   (place D1 1221.74 652.78 front 270
+   )
+   (place D2 1259.84 652.78 front 270
+   )
+  )
+  (component LM7805_1
+   (place DA1 1127.76 678.18 front 0
+   )
+  )
+  (component AD9433_1
+   (place DA2 1170.94 741.68 back -0
+   )
+  )
+  (component LM78L05ACZA_1
+   (place DA3 1267.46 688.34 front 0
+   )
+  )
+  (component MC100EL16D_1
+   (place DD1 1160.78 728.98 back -0
+   )
+  )
+  (component '74HC595(SOIC)_1'
+   (place DD10 1267.46 683.26 front 0
+   )
+   (place DD9 1267.46 668.02 front 0
+   )
+  )
+  (component JCO14-3-B_1
+   (place DD11 1337.31 730.25 front 270
+   )
+  )
+  (component JCO8-3_1
+   (place DD12 1334.77 730.25 front 270
+   )
+  )
+  (component CY7C68013-100_1
+   (place DD13 1300.48 793.75 back -90
+   )
+  )
+  (component 'AT24C64(SOIC)_1'
+   (place DD14 1225.55 725.17 front 0
+   )
+  )
+  (component AD9517-4_1
+   (place DD2 1163.32 703.58 front 0
+   )
+  )
+  (component EP3C25Q240_1
+   (place DD4 1186.18 754.38 front 0
+   )
+  )
+  (component AS7C34096JC_1
+   (place DD5 1201.42 695.96 front 90
+   )
+   (place DD6 1168.4 782.32 front 90
+   )
+   (place DD7 1201.42 711.2 front 90
+   )
+   (place DD8 1201.42 767.08 front 90
+   )
+  )
+  (component PIN_1
+   (place K1 1128.96 707.28 front 0
+   )
+   (place K10 1267.94 702.2 front 0
+   )
+   (place K11 1272.94 702.2 front 0
+   )
+   (place K12 1277.94 702.2 front 0
+   )
+   (place K13 1282.94 702.2 front 0
+   )
+   (place K14 1277.46 698.61 front 180
+   )
+   (place K15 1272.46 698.61 front 180
+   )
+   (place K16 1267.46 698.61 front 180
+   )
+   (place K17 1262.46 698.61 front 180
+   )
+   (place K18 1257.46 698.61 front 180
+   )
+   (place K19 1252.46 698.61 front 180
+   )
+   (place K2 1133.96 707.28 front 0
+   )
+   (place K20 1247.46 698.61 front 180
+   )
+   (place K21 1242.46 698.61 front 180
+   )
+   (place K22 1337.31 721.36 front 0
+   )
+   (place K23 1196.12 656.0 front 0
+   )
+   (place K24 1132.62 702.98 front 0
+   )
+   (place K3 1138.96 707.28 front 0
+   )
+   (place K4 1143.96 707.28 front 0
+   )
+   (place K5 1148.96 707.28 front 0
+   )
+   (place K6 1153.96 707.28 front 0
+   )
+   (place K7 1252.94 702.2 front 0
+   )
+   (place K8 1257.94 702.2 front 0
+   )
+   (place K9 1262.94 702.2 front 0
+   )
+  )
+  (component INDUCT12X12SMD_1
+   (place L1 1203.96 650.24 front 0
+   )
+   (place L2 1239.52 650.24 front 0
+   )
+  )
+  (component RES1206_1
+   (place R1 1259.84 680.72 front 0
+   )
+  )
+  (component RES_CAY16_1
+   (place R10 1178.56 728.98 front 0
+   )
+   (place R11 1178.56 716.28 front 0
+   )
+   (place R12 1168.4 726.44 front 180
+   )
+   (place R22 1181.1 741.68 front 270
+   )
+   (place R9 1176.02 726.44 back -0
+   )
+  )
+  (component RES0805_1
+   (place R13 1150.54 686.48 front 0
+   )
+   (place R14 1155.54 686.48 front 0
+   )
+   (place R15 1160.54 686.48 front 0
+   )
+   (place R16 1165.54 686.48 front 0
+   )
+   (place R17 1170.54 686.48 front 0
+   )
+   (place R18 1175.54 686.48 front 0
+   )
+   (place R19 1132.62 647.98 front 0
+   )
+   (place R2 1128.96 656.0 front 0
+   )
+   (place R20 1137.62 647.98 front 0
+   )
+   (place R21 1142.62 647.98 front 0
+   )
+   (place R23 1162.62 647.98 front 0
+   )
+   (place R24 1167.62 647.98 front 0
+   )
+   (place R25 1172.62 647.98 front 0
+   )
+   (place R26 1177.62 647.98 front 0
+   )
+   (place R27 1182.62 647.98 front 0
+   )
+   (place R28 1187.62 647.98 front 0
+   )
+   (place R29 1233.26 711.48 front 0
+   )
+   (place R3 1133.96 656.0 front 0
+   )
+   (place R30 1238.26 711.48 front 0
+   )
+   (place R31 1243.26 711.48 front 0
+   )
+   (place R32 1248.26 711.48 front 0
+   )
+   (place R33 1253.26 711.48 front 0
+   )
+   (place R4 1138.96 656.0 front 0
+   )
+   (place R5 1143.96 656.0 front 0
+   )
+   (place R6 1145.54 642.62 front 0
+   )
+   (place R7 1153.96 656.0 front 0
+   )
+   (place R8 1158.96 656.0 front 0
+   )
+  )
+  (component 'RK1(NAIS)_1'
+   (place RK1 1153.16 754.38 front 0
+   )
+  )
+  (component T_1_2_6W_1
+   (place T1 1158.24 741.68 back -0
+   )
+   (place T2 1150.62 741.68 front 0
+   )
+  )
+  (component BAS32L_1
+   (place VD1 1226.74 764.82 front 0
+   )
+   (place VD2 1227.85 733.07 front 0
+   )
+   (place VD3 1237.85 733.07 front 0
+   )
+   (place VD4 1247.85 733.07 front 0
+   )
+  )
+  (component 30BQ60_1
+   (place VD5 1137.62 667.98 front 0
+   )
+   (place VD6 1152.62 667.98 front 0
+   )
+  )
+  (component 1N4001_1
+   (place VD7 1275.08 695.96 front 270
+   )
+  )
+  (component BNC_P_1
+   (place X1 1140.0 730.0 front 270
+    (lock_type position)
+   )
+   (place X2 1140.0 770.0 front 270
+    (lock_type position)
+   )
+  )
+  (component USB_B_1
+   (place X4 1290.32 750.57 front 90
+    (lock_type position)
+   )
+  )
+  (component DB25_EPP_MAMA_1
+   (place X5 1280.0 685.0 front 90
+   )
+  )
+ )
+ (library
+  (image CAP0805_1
+   (pin smd0805 1 0.0 0.0)
+   (pin smd0805 2 2.54 0.0)
+  )
+  (image AVX_D_1
+   (pin SX3.2Y4.3smd 2 7.62 0.0)
+   (pin SX3.2Y4.3smd 1 0.0 0.0)
+  )
+  (image AVX_B_1
+   (pin sx85Y110smd 1 0.0 0.0)
+   (pin sx85Y110smd 2 3.81 0.0)
+  )
+  (image 'LM2676(TO_263)_1'
+   (pin lm2576_to263 2 1.27 0.0)
+   (pin lm2576_to263 1 0.0 0.0)
+   (pin lm2576_to263 4 3.81 0.0)
+   (pin lm2576_to263 6 6.35 0.0)
+   (pin lm2576_to263 5 5.08 0.0)
+   (pin lm2576_to263 7 7.62 0.0)
+   (pin lm2576_to263 3 2.54 0.0)
+   (pin TO263_ground 8 3.81 8.255)
+  )
+  (image LM7805_1
+   (outline (rect Top -2.7178 2.0574 7.7978 18.0594))
+   (pin d10d18 3 5.08 0.0)
+   (pin d10d18 2 2.54 -2.54)
+   (pin d10s18 1 0.0 0.0)
+  )
+  (image AD9433_1
+   (outline (rect Top -5.327 -5.652 5.327 5.002))
+   (pin tssop065 10 -6.175 -2.275)
+   (pin tssop065 11 -6.175 -2.925)
+   (pin tssop065 12 -6.175 -3.575)
+   (pin tssop065 13 -6.175 -4.225)
+   (pin tssop065 1 -6.175 3.575)
+   (pin tssop065 2 -6.175 2.925)
+   (pin tssop065 3 -6.175 2.275)
+   (pin tssop065 4 -6.175 1.625)
+   (pin tssop065 5 -6.175 0.975)
+   (pin tssop065 6 -6.175 0.325)
+   (pin tssop065 7 -6.175 -0.325)
+   (pin tssop065 8 -6.175 -0.975)
+   (pin tssop065 15 -2.925 -6.5 (rotate 90.0))
+   (pin tssop065 16 -2.275 -6.5 (rotate 90.0))
+   (pin tssop065 17 -1.625 -6.5 (rotate 90.0))
+   (pin tssop065 18 -0.975 -6.5 (rotate 90.0))
+   (pin tssop065 19 -0.325 -6.5 (rotate 90.0))
+   (pin tssop065 20 0.325 -6.5 (rotate 90.0))
+   (pin tssop065 21 0.975 -6.5 (rotate 90.0))
+   (pin tssop065 22 1.625 -6.5 (rotate 90.0))
+   (pin tssop065 23 2.275 -6.5 (rotate 90.0))
+   (pin tssop065 24 2.925 -6.5 (rotate 90.0))
+   (pin tssop065 25 3.575 -6.5 (rotate 90.0))
+   (pin tssop065 27 6.175 -4.225 (rotate 180.0))
+   (pin tssop065 28 6.175 -3.575 (rotate 180.0))
+   (pin tssop065 29 6.175 -2.925 (rotate 180.0))
+   (pin tssop065 30 6.175 -2.275 (rotate 180.0))
+   (pin tssop065 32 6.175 -0.975 (rotate 180.0))
+   (pin tssop065 33 6.175 -0.325 (rotate 180.0))
+   (pin tssop065 34 6.175 0.325 (rotate 180.0))
+   (pin tssop065 35 6.175 0.975 (rotate 180.0))
+   (pin tssop065 36 6.175 1.625 (rotate 180.0))
+   (pin tssop065 37 6.175 2.275 (rotate 180.0))
+   (pin tssop065 38 6.175 2.925 (rotate 180.0))
+   (pin tssop065 39 6.175 3.575 (rotate 180.0))
+   (pin tssop065 9 -6.175 -1.625)
+   (pin tssop065 41 3.575 5.85 (rotate 270.0))
+   (pin tssop065 42 2.925 5.85 (rotate 270.0))
+   (pin tssop065 43 2.275 5.85 (rotate 270.0))
+   (pin tssop065 44 1.625 5.85 (rotate 270.0))
+   (pin tssop065 45 0.975 5.85 (rotate 270.0))
+   (pin tssop065 46 0.325 5.85 (rotate 270.0))
+   (pin tssop065 47 -0.325 5.85 (rotate 270.0))
+   (pin tssop065 48 -0.975 5.85 (rotate 270.0))
+   (pin tssop065 49 -1.625 5.85 (rotate 270.0))
+   (pin tssop065 50 -2.275 5.85 (rotate 270.0))
+   (pin tssop065 51 -2.925 5.85 (rotate 270.0))
+   (pin tssop065 31 6.175 -1.625 (rotate 180.0))
+   (pin tssop065 14 -3.575 -6.5 (rotate 90.0))
+   (pin tssop065 26 4.225 -6.5 (rotate 90.0))
+   (pin tssop065 40 4.225 5.85 (rotate 270.0))
+   (pin tssop065 52 -3.575 5.85 (rotate 270.0))
+  )
+  (image LM78L05ACZA_1
+   (outline (rect Top 0.0254 -2.032 5.0546 1.905))
+   (pin d07d16 3 5.08 0.0)
+   (pin d07d16 2 2.54 -2.54)
+   (pin d07d16 1 0.0 0.0)
+  )
+  (image MC100EL16D_1
+   (outline (rect Top -1.905 0.635 -1.27 1.27))
+   (pin P:SX80Y26D0T 5 5.588 -3.81)
+   (pin P:SX80Y26D0T 6 5.588 -2.54)
+   (pin P:SX80Y26D0T 7 5.588 -1.27)
+   (pin P:SX80Y26D0T 8 5.588 0.0)
+   (pin P:SX80Y26D0T 4 0.0 -3.81)
+   (pin P:SX80Y26D0T 3 0.0 -2.54)
+   (pin P:SX80Y26D0T 2 0.0 -1.27)
+   (pin P:SX80Y26D0T 1 0.0 0.0)
+  )
+  (image '74HC595(SOIC)_1'
+   (outline (rect Top 0.585 -9.575 5.13 0.685))
+   (pin P:SX80Y26D0T 6 0.0 -6.35)
+   (pin P:SX80Y26D0T 7 0.0 -7.62)
+   (pin P:SX80Y26D0T 8 0.0 -8.89)
+   (pin P:SX80Y26D0T 1 0.0 0.0)
+   (pin P:SX80Y26D0T 2 0.0 -1.27)
+   (pin P:SX80Y26D0T 3 0.0 -2.54)
+   (pin P:SX80Y26D0T 4 0.0 -3.81)
+   (pin P:SX80Y26D0T 11 5.588 -6.35)
+   (pin P:SX80Y26D0T 10 5.588 -7.62)
+   (pin P:SX80Y26D0T 9 5.588 -8.89)
+   (pin P:SX80Y26D0T 16 5.588 0.0)
+   (pin P:SX80Y26D0T 15 5.588 -1.27)
+   (pin P:SX80Y26D0T 14 5.588 -2.54)
+   (pin P:SX80Y26D0T 13 5.588 -3.81)
+   (pin P:SX80Y26D0T 5 0.0 -5.08)
+   (pin P:SX80Y26D0T 12 5.588 -5.08)
+  )
+  (image JCO14-3-B_1
+   (outline (rect Top -2.59 -17.83 10.21 2.59))
+   (pin d07d16 2 0.0 -15.24)
+   (pin d07d16 4 7.62 0.0)
+   (pin d07d16 3 7.62 -15.24)
+   (pin d07s16 1 0.0 0.0)
+  )
+  (image JCO8-3_1
+   (outline (rect Top -2.59 -10.21 10.21 2.59))
+   (pin d07d16 3 0.0 -7.62)
+   (pin d07s16 MiscPinDes1 0.0 0.0)
+   (pin d07d16 1 7.62 -7.62)
+   (pin d07d16 2 7.62 0.0)
+  )
+  (image CY7C68013-100_1
+   (outline (rect Top 0.825 -19.65 15.425 0.8))
+   (pin tssop05 29 0.0 -18.2)
+   (pin tssop05 30 0.0 -18.85)
+   (pin tssop05 32 2.6 -20.475 (rotate 90.0))
+   (pin tssop05 33 3.25 -20.475 (rotate 90.0))
+   (pin tssop05 31 1.95 -20.475 (rotate 90.0))
+   (pin tssop05 25 0.0 -15.6)
+   (pin tssop05 26 0.0 -16.25)
+   (pin tssop05 27 0.0 -16.9)
+   (pin tssop05 17 0.0 -10.4)
+   (pin tssop05 18 0.0 -11.05)
+   (pin tssop05 19 0.0 -11.7)
+   (pin tssop05 20 0.0 -12.35)
+   (pin tssop05 21 0.0 -13.0)
+   (pin tssop05 22 0.0 -13.65)
+   (pin tssop05 23 0.0 -14.3)
+   (pin tssop05 24 0.0 -14.95)
+   (pin tssop05 13 0.0 -7.8)
+   (pin tssop05 14 0.0 -8.45)
+   (pin tssop05 15 0.0 -9.1)
+   (pin tssop05 5 0.0 -2.6)
+   (pin tssop05 6 0.0 -3.25)
+   (pin tssop05 7 0.0 -3.9)
+   (pin tssop05 8 0.0 -4.55)
+   (pin tssop05 9 0.0 -5.2)
+   (pin tssop05 10 0.0 -5.85)
+   (pin tssop05 11 0.0 -6.5)
+   (pin tssop05 12 0.0 -7.15)
+   (pin tssop05 2 0.0 -0.65)
+   (pin tssop05 3 0.0 -1.3)
+   (pin tssop05 98 3.25 1.625 (rotate 270.0))
+   (pin tssop05 99 2.6 1.625 (rotate 270.0))
+   (pin tssop05 1 0.0 0.0)
+   (pin tssop05 100 1.95 1.625 (rotate 270.0))
+   (pin tssop05 36 5.2 -20.475 (rotate 90.0))
+   (pin tssop05 37 5.85 -20.475 (rotate 90.0))
+   (pin tssop05 38 6.5 -20.475 (rotate 90.0))
+   (pin tssop05 39 7.15 -20.475 (rotate 90.0))
+   (pin tssop05 40 7.8 -20.475 (rotate 90.0))
+   (pin tssop05 41 8.45 -20.475 (rotate 90.0))
+   (pin tssop05 42 9.1 -20.475 (rotate 90.0))
+   (pin tssop05 44 10.4 -20.475 (rotate 90.0))
+   (pin tssop05 45 11.05 -20.475 (rotate 90.0))
+   (pin tssop05 43 9.75 -20.475 (rotate 90.0))
+   (pin tssop05 89 9.1 1.625 (rotate 270.0))
+   (pin tssop05 90 8.45 1.625 (rotate 270.0))
+   (pin tssop05 91 7.8 1.625 (rotate 270.0))
+   (pin tssop05 92 7.15 1.625 (rotate 270.0))
+   (pin tssop05 93 6.5 1.625 (rotate 270.0))
+   (pin tssop05 94 5.85 1.625 (rotate 270.0))
+   (pin tssop05 95 5.2 1.625 (rotate 270.0))
+   (pin tssop05 86 11.05 1.625 (rotate 270.0))
+   (pin tssop05 87 10.4 1.625 (rotate 270.0))
+   (pin tssop05 88 9.75 1.625 (rotate 270.0))
+   (pin tssop05 47 12.35 -20.475 (rotate 90.0))
+   (pin tssop05 48 13.0 -20.475 (rotate 90.0))
+   (pin tssop05 49 13.65 -20.475 (rotate 90.0))
+   (pin tssop05 50 14.3 -20.475 (rotate 90.0))
+   (pin tssop05 51 16.25 -18.85 (rotate 180.0))
+   (pin tssop05 52 16.25 -18.2 (rotate 180.0))
+   (pin tssop05 54 16.25 -16.9 (rotate 180.0))
+   (pin tssop05 55 16.25 -16.25 (rotate 180.0))
+   (pin tssop05 56 16.25 -15.6 (rotate 180.0))
+   (pin tssop05 58 16.25 -14.3 (rotate 180.0))
+   (pin tssop05 59 16.25 -13.65 (rotate 180.0))
+   (pin tssop05 60 16.25 -13.0 (rotate 180.0))
+   (pin tssop05 61 16.25 -12.35 (rotate 180.0))
+   (pin tssop05 62 16.25 -11.7 (rotate 180.0))
+   (pin tssop05 63 16.25 -11.05 (rotate 180.0))
+   (pin tssop05 64 16.25 -10.4 (rotate 180.0))
+   (pin tssop05 57 16.25 -14.95 (rotate 180.0))
+   (pin tssop05 66 16.25 -9.1 (rotate 180.0))
+   (pin tssop05 67 16.25 -8.45 (rotate 180.0))
+   (pin tssop05 68 16.25 -7.8 (rotate 180.0))
+   (pin tssop05 70 16.25 -6.5 (rotate 180.0))
+   (pin tssop05 71 16.25 -5.85 (rotate 180.0))
+   (pin tssop05 72 16.25 -5.2 (rotate 180.0))
+   (pin tssop05 73 16.25 -4.55 (rotate 180.0))
+   (pin tssop05 74 16.25 -3.9 (rotate 180.0))
+   (pin tssop05 75 16.25 -3.25 (rotate 180.0))
+   (pin tssop05 76 16.25 -2.6 (rotate 180.0))
+   (pin tssop05 69 16.25 -7.15 (rotate 180.0))
+   (pin tssop05 81 14.3 1.625 (rotate 270.0))
+   (pin tssop05 82 13.65 1.625 (rotate 270.0))
+   (pin tssop05 83 13.0 1.625 (rotate 270.0))
+   (pin tssop05 84 12.35 1.625 (rotate 270.0))
+   (pin tssop05 78 16.25 -1.3 (rotate 180.0))
+   (pin tssop05 79 16.25 -0.65 (rotate 180.0))
+   (pin tssop05 80 16.25 0.0 (rotate 180.0))
+   (pin tssop05 28 0.0 -17.55)
+   (pin tssop05 16 0.0 -9.75)
+   (pin tssop05 4 0.0 -1.95)
+   (pin tssop05 53 16.25 -17.55 (rotate 180.0))
+   (pin tssop05 65 16.25 -9.75 (rotate 180.0))
+   (pin tssop05 77 16.25 -1.95 (rotate 180.0))
+   (pin tssop05 34 3.9 -20.475 (rotate 90.0))
+   (pin tssop05 35 4.55 -20.475 (rotate 90.0))
+   (pin tssop05 46 11.7 -20.475 (rotate 90.0))
+   (pin tssop05 96 4.55 1.625 (rotate 270.0))
+   (pin tssop05 97 3.9 1.625 (rotate 270.0))
+   (pin tssop05 85 11.7 1.625 (rotate 270.0))
+  )
+  (image 'AT24C64(SOIC)_1'
+   (outline (rect Top -1.905 0.635 -1.27 1.27))
+   (pin P:SX80Y26D0T 5 5.588 -3.81)
+   (pin P:SX80Y26D0T 6 5.588 -2.54)
+   (pin P:SX80Y26D0T 7 5.588 -1.27)
+   (pin P:SX80Y26D0T 8 5.588 0.0)
+   (pin P:SX80Y26D0T 4 0.0 -3.81)
+   (pin P:SX80Y26D0T 3 0.0 -2.54)
+   (pin P:SX80Y26D0T 2 0.0 -1.27)
+   (pin P:SX80Y26D0T 1 0.0 0.0)
+  )
+  (image AD9517-4_1
+   (outline (rect Top 0.45 -6.3 7.55 0.8))
+   (pin EF63X12TOPA 13 1.25 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 14 1.75 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 15 2.25 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 16 2.75 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 17 3.25 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 18 3.75 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 19 4.25 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 20 4.75 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 21 5.25 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 22 5.75 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 23 6.25 -6.75 (rotate 90.0))
+   (pin EF63X12TOPA 24 6.75 -6.75 (rotate 90.0))
+   (pin d16d30 49 4.0 -2.75)
+   (pin EF63X12TOPA 37 6.75 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 38 6.25 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 39 5.75 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 40 5.25 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 41 4.75 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 42 4.25 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 43 3.75 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 44 3.25 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 45 2.75 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 46 2.25 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 47 1.75 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 48 1.25 1.25 (rotate 90.0))
+   (pin EF63X12TOPA 1 0.0 0.0)
+   (pin EF63X12TOPA 2 0.0 -0.5)
+   (pin EF63X12TOPA 3 0.0 -1.0)
+   (pin EF63X12TOPA 4 0.0 -1.5)
+   (pin EF63X12TOPA 5 0.0 -2.0)
+   (pin EF63X12TOPA 6 0.0 -2.5)
+   (pin EF63X12TOPA 7 0.0 -3.0)
+   (pin EF63X12TOPA 8 0.0 -3.5)
+   (pin EF63X12TOPA 9 0.0 -4.0)
+   (pin EF63X12TOPA 10 0.0 -4.5)
+   (pin EF63X12TOPA 11 0.0 -5.0)
+   (pin EF63X12TOPA 26 8.0 -5.0)
+   (pin EF63X12TOPA 27 8.0 -4.5)
+   (pin EF63X12TOPA 28 8.0 -4.0)
+   (pin EF63X12TOPA 29 8.0 -3.5)
+   (pin EF63X12TOPA 30 8.0 -3.0)
+   (pin EF63X12TOPA 31 8.0 -2.5)
+   (pin EF63X12TOPA 32 8.0 -2.0)
+   (pin EF63X12TOPA 33 8.0 -1.5)
+   (pin EF63X12TOPA 34 8.0 -1.0)
+   (pin EF63X12TOPA 35 8.0 -0.5)
+   (pin EF63X12TOPA 36 8.0 0.0)
+   (pin EF63X12TOPA 12 0.0 -5.5)
+   (pin EF63X12TOPA 25 8.0 -5.5)
+  )
+  (image EP3C25Q240_1
+   (outline (rect Top -0.05 -32.05 34.55 2.55))
+   (pin EF63X12TOPA 72 8.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 71 7.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 70 7.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 69 6.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 68 6.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 67 5.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 66 5.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 65 4.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 64 4.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 63 3.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 62 3.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 61 2.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 74 9.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 87 15.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 86 15.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 85 14.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 84 14.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 83 13.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 82 13.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 81 12.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 80 12.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 79 11.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 78 11.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 77 10.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 76 10.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 75 9.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 89 16.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 102 23.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 101 22.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 100 22.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 99 21.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 98 21.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 97 20.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 96 20.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 95 19.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 94 19.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 93 18.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 92 18.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 91 17.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 90 17.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 104 24.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 117 30.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 116 30.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 115 29.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 114 29.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 113 28.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 112 28.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 111 27.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 110 27.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 109 26.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 108 26.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 107 25.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 106 25.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 105 24.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 121 34.5 -29.5)
+   (pin EF63X12TOPA 120 32.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 137 34.5 -21.5)
+   (pin EF63X12TOPA 136 34.5 -22.0)
+   (pin EF63X12TOPA 135 34.5 -22.5)
+   (pin EF63X12TOPA 134 34.5 -23.0)
+   (pin EF63X12TOPA 133 34.5 -23.5)
+   (pin EF63X12TOPA 132 34.5 -24.0)
+   (pin EF63X12TOPA 131 34.5 -24.5)
+   (pin EF63X12TOPA 130 34.5 -25.0)
+   (pin EF63X12TOPA 129 34.5 -25.5)
+   (pin EF63X12TOPA 128 34.5 -26.0)
+   (pin EF63X12TOPA 127 34.5 -26.5)
+   (pin EF63X12TOPA 126 34.5 -27.0)
+   (pin EF63X12TOPA 125 34.5 -27.5)
+   (pin EF63X12TOPA 124 34.5 -28.0)
+   (pin EF63X12TOPA 152 34.5 -14.0)
+   (pin EF63X12TOPA 151 34.5 -14.5)
+   (pin EF63X12TOPA 150 34.5 -15.0)
+   (pin EF63X12TOPA 149 34.5 -15.5)
+   (pin EF63X12TOPA 148 34.5 -16.0)
+   (pin EF63X12TOPA 147 34.5 -16.5)
+   (pin EF63X12TOPA 146 34.5 -17.0)
+   (pin EF63X12TOPA 145 34.5 -17.5)
+   (pin EF63X12TOPA 144 34.5 -18.0)
+   (pin EF63X12TOPA 143 34.5 -18.5)
+   (pin EF63X12TOPA 142 34.5 -19.0)
+   (pin EF63X12TOPA 141 34.5 -19.5)
+   (pin EF63X12TOPA 140 34.5 -20.0)
+   (pin EF63X12TOPA 139 34.5 -20.5)
+   (pin EF63X12TOPA 167 34.5 -6.5)
+   (pin EF63X12TOPA 166 34.5 -7.0)
+   (pin EF63X12TOPA 165 34.5 -7.5)
+   (pin EF63X12TOPA 164 34.5 -8.0)
+   (pin EF63X12TOPA 163 34.5 -8.5)
+   (pin EF63X12TOPA 162 34.5 -9.0)
+   (pin EF63X12TOPA 161 34.5 -9.5)
+   (pin EF63X12TOPA 160 34.5 -10.0)
+   (pin EF63X12TOPA 159 34.5 -10.5)
+   (pin EF63X12TOPA 158 34.5 -11.0)
+   (pin EF63X12TOPA 157 34.5 -11.5)
+   (pin EF63X12TOPA 156 34.5 -12.0)
+   (pin EF63X12TOPA 155 34.5 -12.5)
+   (pin EF63X12TOPA 154 34.5 -13.0)
+   (pin EF63X12TOPA 180 34.5 0.0)
+   (pin EF63X12TOPA 179 34.5 -0.5)
+   (pin EF63X12TOPA 178 34.5 -1.0)
+   (pin EF63X12TOPA 177 34.5 -1.5)
+   (pin EF63X12TOPA 176 34.5 -2.0)
+   (pin EF63X12TOPA 175 34.5 -2.5)
+   (pin EF63X12TOPA 174 34.5 -3.0)
+   (pin EF63X12TOPA 173 34.5 -3.5)
+   (pin EF63X12TOPA 172 34.5 -4.0)
+   (pin EF63X12TOPA 171 34.5 -4.5)
+   (pin EF63X12TOPA 170 34.5 -5.0)
+   (pin EF63X12TOPA 169 34.5 -5.5)
+   (pin EF63X12TOPA 230 7.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 231 7.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 232 6.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 233 6.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 234 5.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 235 5.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 236 4.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 237 4.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 238 3.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 239 3.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 240 2.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 229 8.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 215 15.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 216 14.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 217 14.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 218 13.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 219 13.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 220 12.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 221 12.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 222 11.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 223 11.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 224 10.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 225 10.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 226 9.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 227 9.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 214 15.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 199 23.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 200 22.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 201 22.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 202 21.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 203 21.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 204 20.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 205 20.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 206 19.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 207 19.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 208 18.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 209 18.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 210 17.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 211 17.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 212 16.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 184 30.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 185 30.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 186 29.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 187 29.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 188 28.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 189 28.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 190 27.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 191 27.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 192 26.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 193 26.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 194 25.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 195 25.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 196 24.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 197 24.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 153 34.5 -13.5)
+   (pin EF63X12TOPA 138 34.5 -21.0)
+   (pin EF63X12TOPA 123 34.5 -28.5)
+   (pin EF63X12TOPA 122 34.5 -29.0)
+   (pin EF63X12TOPA 168 34.5 -6.0)
+   (pin EF63X12TOPA 181 32.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 60 0.0 -29.5)
+   (pin EF63X12TOPA 88 16.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 73 8.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 44 0.0 -21.5)
+   (pin EF63X12TOPA 45 0.0 -22.0)
+   (pin EF63X12TOPA 46 0.0 -22.5)
+   (pin EF63X12TOPA 47 0.0 -23.0)
+   (pin EF63X12TOPA 48 0.0 -23.5)
+   (pin EF63X12TOPA 49 0.0 -24.0)
+   (pin EF63X12TOPA 50 0.0 -24.5)
+   (pin EF63X12TOPA 51 0.0 -25.0)
+   (pin EF63X12TOPA 52 0.0 -25.5)
+   (pin EF63X12TOPA 53 0.0 -26.0)
+   (pin EF63X12TOPA 54 0.0 -26.5)
+   (pin EF63X12TOPA 55 0.0 -27.0)
+   (pin EF63X12TOPA 56 0.0 -27.5)
+   (pin EF63X12TOPA 57 0.0 -28.0)
+   (pin EF63X12TOPA 29 0.0 -14.0)
+   (pin EF63X12TOPA 30 0.0 -14.5)
+   (pin EF63X12TOPA 31 0.0 -15.0)
+   (pin EF63X12TOPA 32 0.0 -15.5)
+   (pin EF63X12TOPA 33 0.0 -16.0)
+   (pin EF63X12TOPA 34 0.0 -16.5)
+   (pin EF63X12TOPA 35 0.0 -17.0)
+   (pin EF63X12TOPA 36 0.0 -17.5)
+   (pin EF63X12TOPA 37 0.0 -18.0)
+   (pin EF63X12TOPA 38 0.0 -18.5)
+   (pin EF63X12TOPA 39 0.0 -19.0)
+   (pin EF63X12TOPA 40 0.0 -19.5)
+   (pin EF63X12TOPA 41 0.0 -20.0)
+   (pin EF63X12TOPA 42 0.0 -20.5)
+   (pin EF63X12TOPA 14 0.0 -6.5)
+   (pin EF63X12TOPA 15 0.0 -7.0)
+   (pin EF63X12TOPA 16 0.0 -7.5)
+   (pin EF63X12TOPA 17 0.0 -8.0)
+   (pin EF63X12TOPA 18 0.0 -8.5)
+   (pin EF63X12TOPA 19 0.0 -9.0)
+   (pin EF63X12TOPA 20 0.0 -9.5)
+   (pin EF63X12TOPA 21 0.0 -10.0)
+   (pin EF63X12TOPA 22 0.0 -10.5)
+   (pin EF63X12TOPA 23 0.0 -11.0)
+   (pin EF63X12TOPA 24 0.0 -11.5)
+   (pin EF63X12TOPA 25 0.0 -12.0)
+   (pin EF63X12TOPA 26 0.0 -12.5)
+   (pin EF63X12TOPA 27 0.0 -13.0)
+   (pin EF63X12TOPA 1 0.0 0.0)
+   (pin EF63X12TOPA 2 0.0 -0.5)
+   (pin EF63X12TOPA 3 0.0 -1.0)
+   (pin EF63X12TOPA 4 0.0 -1.5)
+   (pin EF63X12TOPA 5 0.0 -2.0)
+   (pin EF63X12TOPA 6 0.0 -2.5)
+   (pin EF63X12TOPA 7 0.0 -3.0)
+   (pin EF63X12TOPA 8 0.0 -3.5)
+   (pin EF63X12TOPA 9 0.0 -4.0)
+   (pin EF63X12TOPA 10 0.0 -4.5)
+   (pin EF63X12TOPA 11 0.0 -5.0)
+   (pin EF63X12TOPA 12 0.0 -5.5)
+   (pin EF63X12TOPA 119 31.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 118 31.0 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 103 23.5 -32.0 (rotate 90.0))
+   (pin EF63X12TOPA 28 0.0 -13.5)
+   (pin EF63X12TOPA 43 0.0 -21.0)
+   (pin EF63X12TOPA 58 0.0 -28.5)
+   (pin EF63X12TOPA 59 0.0 -29.0)
+   (pin EF63X12TOPA 13 0.0 -6.0)
+   (pin EF63X12TOPA 228 8.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 213 16.0 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 182 31.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 198 23.5 2.5 (rotate 90.0))
+   (pin EF63X12TOPA 183 31.0 2.5 (rotate 90.0))
+  )
+  (image AS7C34096JC_1
+   (outline (rect Top -5.13 -10.21 5.13 14.02))
+   (pin P:SX80Y26D0T 16 -5.08 -6.35)
+   (pin P:SX80Y26D0T 18 -5.08 -8.89)
+   (pin P:SX80Y26D0T 17 -5.08 -7.62)
+   (pin P:SX80Y26D0T 11 -5.08 0.0)
+   (pin P:SX80Y26D0T 10 -5.08 1.27)
+   (pin P:SX80Y26D0T 12 -5.08 -1.27)
+   (pin P:SX80Y26D0T 14 -5.08 -3.81)
+   (pin P:SX80Y26D0T 13 -5.08 -2.54)
+   (pin P:SX80Y26D0T 4 -5.08 8.89)
+   (pin P:SX80Y26D0T 5 -5.08 7.62)
+   (pin P:SX80Y26D0T 6 -5.08 6.35)
+   (pin P:SX80Y26D0T 7 -5.08 5.08)
+   (pin P:SX80Y26D0T 8 -5.08 3.81)
+   (pin P:SX80Y26D0T 1 -5.08 12.7)
+   (pin P:SX80Y26D0T 2 -5.08 11.43)
+   (pin P:SX80Y26D0T 21 5.08 -6.35)
+   (pin P:SX80Y26D0T 19 5.08 -8.89)
+   (pin P:SX80Y26D0T 20 5.08 -7.62)
+   (pin P:SX80Y26D0T 26 5.08 0.0)
+   (pin P:SX80Y26D0T 27 5.08 1.27)
+   (pin P:SX80Y26D0T 25 5.08 -1.27)
+   (pin P:SX80Y26D0T 23 5.08 -3.81)
+   (pin P:SX80Y26D0T 24 5.08 -2.54)
+   (pin P:SX80Y26D0T 33 5.08 8.89)
+   (pin P:SX80Y26D0T 32 5.08 7.62)
+   (pin P:SX80Y26D0T 31 5.08 6.35)
+   (pin P:SX80Y26D0T 30 5.08 5.08)
+   (pin P:SX80Y26D0T 29 5.08 3.81)
+   (pin P:SX80Y26D0T 35 5.08 11.43)
+   (pin P:SX80Y26D0T 36 5.08 12.7)
+   (pin P:SX80Y26D0T 9 -5.08 2.54)
+   (pin P:SX80Y26D0T 15 -5.08 -5.08)
+   (pin P:SX80Y26D0T 3 -5.08 10.16)
+   (pin P:SX80Y26D0T 28 5.08 2.54)
+   (pin P:SX80Y26D0T 22 5.08 -5.08)
+   (pin P:SX80Y26D0T 34 5.08 10.16)
+  )
+  (image PIN_1
+   (pin pin 1 0.0 0.0)
+  )
+  (image INDUCT12X12SMD_1
+   (outline (rect Top -0.127 -6.127 12.127 6.127))
+   (pin SX40Y60smd 1 0.0 0.0)
+   (pin SX40Y60smd 2 12.0 0.0)
+   (wire_keepout
+    (path Top 0
+     0.635 5.08 11.43 5.08 11.43 3.175 9.525 3.175 
+     9.525 -3.175 11.43 -3.175 11.43 -5.08 0.635 -5.08 
+     0.635 -3.175 2.54 -3.175 2.54 3.175 0.635 3.175 
+     0.635 5.08 
+    )
+   )
+   (bend_keepout
+    (path Top 0
+     0.635 5.08 11.43 5.08 11.43 3.175 9.525 3.175 
+     9.525 -3.175 11.43 -3.175 11.43 -5.08 0.635 -5.08 
+     0.635 -3.175 2.54 -3.175 2.54 3.175 0.635 3.175 
+     0.635 5.08 
+    )
+   )
+  )
+  (image RES1206_1
+   (pin 1206 1 0.0 0.0)
+   (pin 1206 2 3.81 0.0)
+  )
+  (image RES_CAY16_1
+   (pin sx04x08smd 5 2.4 0.8)
+   (pin sx04x08smd 6 1.6 0.8)
+   (pin sx04x08smd 7 0.8 0.8)
+   (pin sx04x08smd 8 0.0 0.8)
+   (pin sx04x08smd 1 0.0 -0.8)
+   (pin sx04x08smd 2 0.8 -0.8)
+   (pin sx04x08smd 3 1.6 -0.8)
+   (pin sx04x08smd 4 2.4 -0.8)
+  )
+  (image RES0805_1
+   (outline (rect Top -0.01 -0.8 2.34 0.8))
+   (pin smd0805 1 0.0 0.0)
+   (pin smd0805 2 2.54 0.0)
+  )
+  (image 'RK1(NAIS)_1'
+   (outline (rect Top -10.287 -5.207 10.287 7.747))
+   (pin d09d16 1 -7.62 -2.54)
+   (pin d09d16 13 -5.08 5.08)
+   (pin d09d16 14 -7.62 5.08)
+   (pin d09d16 10 2.54 5.08)
+   (pin d09d16 11 0.0 5.08)
+   (pin d09d16 7 7.62 -2.54)
+   (pin d09d16 8 7.62 5.08)
+   (pin d09d16 12 -2.54 5.08)
+   (pin d09d16 9 5.08 5.08)
+  )
+  (image T_1_2_6W_1
+   (pin S20X12 4 2.54 -5.08)
+   (pin S20X12 MiscPinDes1 0.0 -5.08)
+   (pin S20X12 2 0.0 5.08)
+   (pin S20X12 3 2.54 5.08)
+   (pin S20X12 6 -2.54 -5.08)
+   (pin S20X12 1 -2.54 5.08)
+  )
+  (image BAS32L_1
+   (outline (rect Top 1.3273 -1.4127 2.4527 -0.5873))
+   (pin P:SX56Y80D0T 2 0.0 0.0)
+   (pin P:SX56Y80D0T 1 3.6068 0.0)
+  )
+  (image 30BQ60_1
+   (outline (rect Top -4.127 -3.127 3.627 3.127))
+   (pin SX28Y38smd 1 -4.0 0.0 (rotate 180.0))
+   (pin SX28Y38smd 2 3.5 0.0 (rotate 180.0))
+  )
+  (image 1N4001_1
+   (outline (rect Top 1.805 -1.37 8.355 1.37))
+   (pin d12d20 2 0.0 0.0)
+   (pin d12d20 1 10.16 0.0)
+  )
+  (image BNC_P_1
+   (outline (rect Top -0.05 -34.34 15.29 0.05))
+   (pin flipped__d09d16 2 10.16 -1.27)
+   (pin flipped__d09d16 1 7.62 -1.27)
+   (pin flipped__d20d30 4 12.7 -6.35)
+   (pin flipped__d20d30 3 2.54 -6.35)
+  )
+  (image USB_B_1
+   (outline (rect Top -2.575 -10.575 14.575 5.575))
+   (pin d23d40 5 0.0 0.0)
+   (pin d23d40 6 12.0 0.0)
+   (pin d09d16 2 4.75 4.75)
+   (pin d09d16 1 7.25 4.75)
+   (pin d09d16 4 7.25 2.75)
+   (pin d09d16 3 4.75 2.75)
+  )
+  (image DB25_EPP_MAMA_1
+   (outline (rect Top -43.4594 -16.635 10.287 1.397))
+   (pin d08s16 1 0.0 0.0)
+   (pin d08d16 13 -33.2232 0.0)
+   (pin d08d16 12 -30.4546 0.0)
+   (pin d08d16 11 -27.686 0.0)
+   (pin d08d16 10 -24.9174 0.0)
+   (pin d08d16 9 -22.1488 0.0)
+   (pin d08d16 8 -19.3802 0.0)
+   (pin d08d16 7 -16.6116 0.0)
+   (pin d08d16 6 -13.843 0.0)
+   (pin d08d16 5 -11.0744 0.0)
+   (pin d08d16 4 -8.3058 0.0)
+   (pin d08d16 3 -5.5372 0.0)
+   (pin d08d16 15 -4.1402 -2.8448)
+   (pin d08d16 16 -6.9088 -2.8448)
+   (pin d08d16 17 -9.6774 -2.8448)
+   (pin d08d16 18 -12.446 -2.8448)
+   (pin d08d16 19 -15.2146 -2.8448)
+   (pin d08d16 20 -17.9832 -2.8448)
+   (pin d08d16 21 -20.7518 -2.8448)
+   (pin d08d16 22 -23.5204 -2.8448)
+   (pin d08d16 23 -26.289 -2.8448)
+   (pin d08d16 24 -29.0576 -2.8448)
+   (pin d08d16 25 -31.8262 -2.8448)
+   (pin d08d16 2 -2.7686 0.0)
+   (pin d08d16 14 -1.3716 -2.8448)
+   (pin d32d50 27 6.9088 -2.42)
+   (pin d32d50 26 -40.132 -2.42)
+  )
+  (padstack smd0805
+   (shape
+    (rect Top -0.7112 -0.7112 0.7112 0.7112)
+   )
+  )
+  (padstack SX3.2Y4.3smd
+   (shape
+    (rect Top -1.6 -2.15 1.6 2.15)
+   )
+  )
+  (padstack sx85Y110smd
+   (shape
+    (rect Top -1.0795 -1.397 1.0795 1.397)
+   )
+  )
+  (padstack lm2576_to263
+   (shape
+    (rect Top -0.455 -1.08 0.455 1.08)
+   )
+  )
+  (padstack TO263_ground
+   (shape
+    (rect Top -5.4 -5.205 5.4 5.205)
+   )
+  )
+  (padstack d10d18
+   (shape
+    (circle Top 1.8)
+   )
+   (shape
+    (circle ind_vcc 2.0)
+   )
+   (shape
+    (circle ind_gnd 2.0)
+   )
+   (shape
+    (circle Bottom 1.8)
+   )
+  )
+  (padstack d10s18
+   (shape
+    (path Top 0.9 -0.45 -0.45 0.45 -0.45 0.45 0.45 -0.45 0.45 -0.45 -0.45 0.0 0.0)
+   )
+   (shape
+    (circle ind_vcc 2.0)
+   )
+   (shape
+    (circle ind_gnd 2.0)
+   )
+   (shape
+    (path Bottom 0.9 -0.45 -0.45 0.45 -0.45 0.45 0.45 -0.45 0.45 -0.45 -0.45 0.0 0.0)
+   )
+  )
+  (padstack tssop065
+   (shape
+    (rect Top -0.9 -0.15 0.9 0.15)
+   )
+  )
+  (padstack d07d16
+   (shape
+    (circle Top 1.6)
+   )
+   (shape
+    (circle ind_vcc 1.4)
+   )
+   (shape
+    (circle ind_gnd 1.4)
+   )
+   (shape
+    (circle Bottom 1.6)
+   )
+  )
+  (padstack P:SX80Y26D0T
+   (shape
+    (rect Top -1.016 -0.3302 1.016 0.3302)
+   )
+  )
+  (padstack d07s16
+   (shape
+    (path Top 0.8 -0.4 -0.4 0.4 -0.4 0.4 0.4 -0.4 0.4 -0.4 -0.4 0.0 0.0)
+   )
+   (shape
+    (circle ind_vcc 1.4)
+   )
+   (shape
+    (circle ind_gnd 1.4)
+   )
+   (shape
+    (path Bottom 0.8 -0.4 -0.4 0.4 -0.4 0.4 0.4 -0.4 0.4 -0.4 -0.4 0.0 0.0)
+   )
+  )
+  (padstack tssop05
+   (shape
+    (rect Top -0.9 -0.175 0.9 0.175)
+   )
+  )
+  (padstack EF63X12TOPA
+   (shape
+    (rect Top -0.8 -0.15 0.8 0.15)
+   )
+  )
+  (padstack d16d30
+   (shape
+    (circle Top 3.0)
+   )
+   (shape
+    (circle ind_vcc 3.2)
+   )
+   (shape
+    (circle ind_gnd 3.2)
+   )
+   (shape
+    (circle Bottom 3.0)
+   )
+  )
+  (padstack pin
+   (shape
+    (path Top 0.9 -0.45 -0.45 0.45 -0.45 0.45 0.45 -0.45 0.45 -0.45 -0.45 0.0 0.0)
+   )
+   (shape
+    (circle ind_vcc 1.8)
+   )
+   (shape
+    (circle ind_gnd 1.8)
+   )
+   (shape
+    (path Bottom 0.9 -0.45 -0.45 0.45 -0.45 0.45 0.45 -0.45 0.45 -0.45 -0.45 0.0 0.0)
+   )
+  )
+  (padstack SX40Y60smd
+   (shape
+    (rect Top -2.0 -3.0 2.0 3.0)
+   )
+  )
+  (padstack 1206
+   (shape
+    (rect Top -0.95 -0.95 0.95 0.95)
+   )
+  )
+  (padstack sx04x08smd
+   (shape
+    (rect Top -0.2 -0.4 0.2 0.4)
+   )
+  )
+  (padstack d09d16
+   (shape
+    (circle Top 1.6)
+   )
+   (shape
+    (circle ind_vcc 1.8)
+   )
+   (shape
+    (circle ind_gnd 1.8)
+   )
+   (shape
+    (circle Bottom 1.6)
+   )
+  )
+  (padstack flipped__d09d16
+   (shape
+    (circle Top 1.6)
+   )
+   (shape
+    (circle ind_vcc 1.8)
+   )
+   (shape
+    (circle ind_gnd 1.8)
+   )
+   (shape
+    (circle Bottom 1.6)
+   )
+  )
+  (padstack S20X12
+   (shape
+    (rect Top -0.6 -1.0 0.6 1.0)
+   )
+  )
+  (padstack P:SX56Y80D0T
+   (shape
+    (rect Top -0.7112 -1.016 0.7112 1.016)
+   )
+  )
+  (padstack SX28Y38smd
+   (shape
+    (rect Top -1.4 -1.9 1.4 1.9)
+   )
+  )
+  (padstack d12d20
+   (shape
+    (circle Top 2.0)
+   )
+   (shape
+    (circle ind_vcc 2.4)
+   )
+   (shape
+    (circle ind_gnd 2.4)
+   )
+   (shape
+    (circle Bottom 2.0)
+   )
+  )
+  (padstack d20d30
+   (shape
+    (circle Top 3.0)
+   )
+   (shape
+    (circle ind_vcc 4.0)
+   )
+   (shape
+    (circle ind_gnd 4.0)
+   )
+   (shape
+    (circle Bottom 3.0)
+   )
+  )
+  (padstack flipped__d20d30
+   (shape
+    (circle Top 3.0)
+   )
+   (shape
+    (circle ind_vcc 4.0)
+   )
+   (shape
+    (circle ind_gnd 4.0)
+   )
+   (shape
+    (circle Bottom 3.0)
+   )
+  )
+  (padstack d08d16
+   (shape
+    (circle Top 1.6)
+   )
+   (shape
+    (circle ind_vcc 1.6)
+   )
+   (shape
+    (circle ind_gnd 1.6)
+   )
+   (shape
+    (circle Bottom 1.6)
+   )
+  )
+  (padstack d08s16
+   (shape
+    (path Top 0.8 -0.4 -0.4 0.4 -0.4 0.4 0.4 -0.4 0.4 -0.4 -0.4 0.0 0.0)
+   )
+   (shape
+    (circle ind_vcc 1.6)
+   )
+   (shape
+    (circle ind_gnd 1.6)
+   )
+   (shape
+    (path Bottom 0.8 -0.4 -0.4 0.4 -0.4 0.4 0.4 -0.4 0.4 -0.4 -0.4 0.0 0.0)
+   )
+  )
+  (padstack d23d40
+   (shape
+    (circle Top 4.0)
+   )
+   (shape
+    (circle ind_vcc 4.6)
+   )
+   (shape
+    (circle ind_gnd 4.6)
+   )
+   (shape
+    (circle Bottom 4.0)
+   )
+  )
+  (padstack d32d50
+   (shape
+    (circle Top 5.0)
+   )
+   (shape
+    (circle ind_vcc 6.4)
+   )
+   (shape
+    (circle ind_gnd 6.4)
+   )
+   (shape
+    (circle Bottom 5.0)
+   )
+  )
+  (padstack 'CCTVIA_(Default)'
+   (shape
+    (circle Top 1.016)
+   )
+   (shape
+    (circle ind_vcc 1.6256)
+   )
+   (shape
+    (circle ind_gnd 1.6256)
+   )
+   (shape
+    (circle Bottom 1.016)
+   )
+  )
+ )
+ (network
+  (net NET00000
+   (pins R8-2 C22-1 C23-1 R7-1)
+   (rule (tjunction on))
+  )
+  (net NET00029
+   (pins RK1-11 T1-3)
+   (rule (tjunction on))
+  )
+  (net AGND
+   (pins X2-2 X1-2 C8-2 RK1-9 RK1-12 RK1-10 RK1-13 DD1-5 DA1-2 C22-2 C16-2
+         DA2-40 DA2-51 DA2-48 DA2-43 DA2-9 DA2-39 DA2-38 DA2-35 DA2-34 DA2-33
+         DA2-4 DA2-3 DA2-1 DA2-11 C14-2 C15-2 C10-2 C25-1 C7-2 C4-2 C5-2
+         T1-2 R5-1 C19-2 C17-2 C23-2 C13-2 C9-2 C6-2 C3-2 R4-1 C24-1)
+   (rule (tjunction on))
+  )
+  (net NET00048
+   (pins RK1-8 C11-2)
+   (rule (tjunction on))
+  )
+  (net NET00052
+   (pins RK1-14 C12-2)
+   (rule (tjunction on))
+  )
+  (net SCLK
+   (pins DD13-61 DD4-127 DD10-11 DD2-13 DD9-11)
+   (rule (tjunction on))
+  )
+  (net NET00098
+   (pins DD2-12 C31-1)
+   (rule (tjunction on))
+  )
+  (net NET00003
+   (pins L2-2 D2-1 VD6-1 C99-2)
+   (rule (tjunction on))
+  )
+  (net CHAN
+   (pins DD4-41 R6-1)
+   (rule (tjunction on))
+  )
+  (net NET00007
+   (pins DD1-4 R2-1 R3-1 C17-1)
+   (rule (tjunction on))
+  )
+  (net AVCC
+   (pins C8-1 DD1-8 DA1-3 C16-1 DA2-52 DA2-47 DA2-44 DA2-37 DA2-36 DA2-6
+         DA2-5 DA2-2 DA2-10 C14-1 C15-1 C10-1 C7-1 C4-1 C5-1 C19-1 C13-1
+         C9-1 C6-1 C3-1 K3-1)
+   (rule (tjunction on))
+  )
+  (net NET00009
+   (pins C2-2 DD1-3 R3-2)
+   (rule (tjunction on))
+  )
+  (net NET00010
+   (pins DD1-2 R2-2 C1-2)
+   (rule (tjunction on))
+  )
+  (net RAM_OE1
+   (pins DD4-109 DD7-31 DD5-31)
+   (rule (tjunction on))
+  )
+  (net NET00011
+   (pins DD1-6 R4-2 C21-1)
+   (rule (tjunction on))
+  )
+  (net NET00012
+   (pins DD1-7 R5-2 C20-1)
+   (rule (tjunction on))
+  )
+  (net ADC_CLK
+   (pins DD4-33 K6-1)
+   (rule (tjunction on))
+  )
+  (net NET00013
+   (pins DA2-7 C20-2)
+   (rule (tjunction on))
+  )
+  (net NET00014
+   (pins DA2-8 C21-2)
+   (rule (tjunction on))
+  )
+  (net NET00019
+   (pins DA2-46 DA2-45 C25-2 C24-2)
+   (rule (tjunction on))
+  )
+  (net 0V
+   (pins DD13-65 DD13-75 DD13-74 DD13-71 DD13-50 DD13-48 DD13-94 DD13-39
+         DD13-99 DD13-2 DD13-12 DD13-21 DD13-19 DD12-3 DD11-2 D1-8 D1-4 DD4-59
+         DD4-11 DD4-8 DD4-2 DD4-20 DD4-16 DD4-42 DD4-36 DD4-30 DD4-54 DD4-48
+         DD4-122 DD4-138 DD4-193 DD4-191 DD4-208 DD4-205 DD4-199 DD4-227
+         DD4-222 DD4-215 DD4-229 DD4-172 DD4-175 DD4-179 DD4-155 DD4-156
+         DD4-157 DD4-158 DD4-165 DD4-141 DD4-125 DD4-130 DD4-105 DD4-116
+         DD4-97 DD4-102 DD4-75 DD4-79 DD4-86 DD4-62 DD4-67 X5-25 DD8-28 DD8-6
+         DD8-10 C112-1 C96-2 DD6-28 DD6-6 DD6-10 DD7-28 DD7-6 DD7-10 C58-2
+         C52-2 DD5-28 DD5-6 DD5-10 C106-2 R19-2 C79-1 C73-2 C43-2 C37-2 C94-1
+         C88-2 X4-4 DD10-13 DD10-8 D2-8 D2-4 DA2-31 DA2-24 DA2-21 DA2-12
+         DD2-49 C114-1 C115-1 C113-1 DD14-1 DD14-2 DD14-3 DD14-4 DD14-7 DA3-2
+         DD9-13 DD9-8 C110-1 C102-2 C95-2 C67-2 C65-2 C103-2 C104-1 C70-2
+         C69-2 C55-2 C56-2 C53-2 C59-2 R17-2 R16-2 C28-2 C26-2 VD5-2 VD6-2
+         C109-1 C31-2 C101-2 C100-2 C34-2 C33-2 C91-1 C92-1 C89-1 C87-2 C85-2
+         C51-2 C49-2 C81-2 C45-2 C64-2 C62-2 C61-2 C78-2 C75-2 C76-2 C42-2
+         C39-2 C40-2 C72-2 C36-2 C116-1 C111-1 C66-2 C105-1 C54-2 C68-2 C57-2
+         C71-2 C60-2 R27-1 R18-2 R26-1 R15-2 K5-1 C97-1 C30-2 R30-1 C108-1
+         C107-1 C90-1 C18-2 C86-2 C50-2 C93-1 C84-2 C48-2 C35-2 C83-2 C47-2
+         C82-2 C46-2 C63-2 C80-2 C44-2 C77-1 C41-2 C74-2 C38-2)
+   (rule (power_fanout (order pin_cap_via)))
+   (rule (tjunction on))
+   (expose DD13-65 DD13-75 DD13-74 DD13-71 DD13-50 DD13-48 DD13-94 DD13-39
+           DD13-99 DD13-2 DD13-12 DD13-21 DD13-19 D1-8 D1-4 DD4-59 DD4-11
+           DD4-8 DD4-2 DD4-20 DD4-16 DD4-42 DD4-36 DD4-30 DD4-54 DD4-48 DD4-122
+           DD4-138 DD4-193 DD4-191 DD4-208 DD4-205 DD4-199 DD4-227 DD4-222
+           DD4-215 DD4-229 DD4-172 DD4-175 DD4-179 DD4-155 DD4-156 DD4-157
+           DD4-158 DD4-165 DD4-141 DD4-125 DD4-130 DD4-105 DD4-116 DD4-97
+           DD4-102 DD4-75 DD4-79 DD4-86 DD4-62 DD4-67 DD8-28 DD8-6 DD8-10
+           C112-1 C96-2 DD6-28 DD6-6 DD6-10 DD7-28 DD7-6 DD7-10 C58-2 C52-2
+           DD5-28 DD5-6 DD5-10 C106-2 R19-2 C79-1 C73-2 C43-2 C37-2 C94-1
+           C88-2 DD10-13 DD10-8 D2-8 D2-4 DA2-31 DA2-24 DA2-21 DA2-12 C114-1
+           C115-1 C113-1 DD14-1 DD14-2 DD14-3 DD14-4 DD14-7 DD9-13 DD9-8
+           C110-1 C102-2 C95-2 C67-2 C65-2 C103-2 C104-1 C70-2 C69-2 C55-2
+           C56-2 C53-2 C59-2 R17-2 R16-2 C28-2 C26-2 VD5-2 VD6-2 C109-1 C31-2
+           C101-2 C100-2 C34-2 C33-2 C91-1 C92-1 C89-1 C87-2 C85-2 C51-2
+           C49-2 C81-2 C45-2 C64-2 C62-2 C61-2 C78-2 C75-2 C76-2 C42-2 C39-2
+           C40-2 C72-2 C36-2 C116-1 C111-1 C66-2 C105-1 C54-2 C68-2 C57-2
+           C71-2 C60-2 R27-1 R18-2 R26-1 R15-2 C97-1 C30-2 R30-1 C108-1 C107-1
+           C90-1 C18-2 C86-2 C50-2 C93-1 C84-2 C48-2 C35-2 C83-2 C47-2 C82-2
+           C46-2 C63-2 C80-2 C44-2 C77-1 C41-2 C74-2 C38-2
+   )
+  )
+  (net 3.3V
+   (pins DD13-85 DD13-53 DD13-16 DD13-78 DD13-69 DD13-73 DD13-72 DD13-66
+         DD13-49 DD13-38 DD13-1 DD13-9 DD13-20 DD13-33 DD12-2 DD11-4 L2-1
+         DD4-213 DD4-7 DD4-15 DD4-35 DD4-47 DD4-192 DD4-206 DD4-225 DD4-170
+         DD4-154 DD4-124 DD4-136 DD4-104 DD4-96 DD4-77 DD4-66 DD8-9 DD8-27
+         C112-2 C96-1 DD6-9 DD6-27 RK1-7 DD7-9 DD7-27 DD5-9 DD5-27 R23-1
+         C73-1 C43-1 C37-1 C94-2 C88-1 DD10-10 DA2-32 DA2-23 DA2-22 DA2-13
+         DD2-25 DD2-36 DD2-31 DD2-30 DD2-10 DD2-6 DD2-3 DD2-45 DD2-43 DD2-40
+         DD2-37 DD2-24 DD2-21 C114-2 C115-2 C113-2 DD14-8 DD9-10 C110-2 C67-1
+         C65-1 C104-2 C55-1 C56-1 C53-1 R22-8 R22-7 R22-6 R22-5 C59-1 C26-1
+         R25-2 R21-1 K22-1 VD4-1 C109-2 VD3-1 VD1-1 R31-1 R32-1 C34-1 C33-1
+         C87-1 C85-1 C49-1 C81-1 C62-1 C61-1 C75-1 C76-1 C42-1 C72-1 C36-1
+         C116-2 C66-1 C105-2 C54-1 C68-1 C71-1 C60-1 R33-1 C97-2 VD2-1 C108-2
+         C107-2 C18-1 C86-1 C50-1 C84-1 C48-1 C35-1 C83-1 C47-1 C82-1 C44-1
+         C41-1 C74-1 C38-1)
+   (rule (power_fanout (order pin_cap_via)))
+   (rule (tjunction on))
+   (expose DD13-85 DD13-53 DD13-16 DD13-78 DD13-69 DD13-73 DD13-72 DD13-66
+           DD13-49 DD13-38 DD13-1 DD13-9 DD13-20 DD13-33 L2-1 DD4-213 DD4-7
+           DD4-15 DD4-35 DD4-47 DD4-192 DD4-206 DD4-225 DD4-170 DD4-154 DD4-124
+           DD4-136 DD4-104 DD4-96 DD4-77 DD4-66 DD8-9 DD8-27 C112-2 C96-1
+           DD6-9 DD6-27 DD7-9 DD7-27 DD5-9 DD5-27 R23-1 C73-1 C43-1 C37-1
+           C94-2 C88-1 DD10-10 DA2-32 DA2-23 DA2-22 DA2-13 DD2-25 DD2-36
+           DD2-31 DD2-30 DD2-10 DD2-6 DD2-3 DD2-45 DD2-43 DD2-40 DD2-37 DD2-24
+           DD2-21 C114-2 C115-2 C113-2 DD14-8 DD9-10 C110-2 C67-1 C65-1 C104-2
+           C55-1 C56-1 C53-1 R22-8 R22-7 R22-6 R22-5 C59-1 C26-1 R25-2 R21-1
+           VD4-1 C109-2 VD3-1 VD1-1 R31-1 R32-1 C34-1 C33-1 C87-1 C85-1 C49-1
+           C81-1 C62-1 C61-1 C75-1 C76-1 C42-1 C72-1 C36-1 C116-2 C66-1 C105-2
+           C54-1 C68-1 C71-1 C60-1 R33-1 C97-2 VD2-1 C108-2 C107-2 C18-1
+           C86-1 C50-1 C84-1 C48-1 C35-1 C83-1 C47-1 C82-1 C44-1 C41-1 C74-1
+           C38-1
+   )
+  )
+  (net NET00027
+   (pins DA2-49 T2-4 R7-2)
+   (rule (tjunction on))
+  )
+  (net NET00028
+   (pins R8-1 DA2-50 T2-6)
+   (rule (tjunction on))
+  )
+  (net NET00022
+   (pins DA2-42 K1-1)
+   (rule (tjunction on))
+  )
+  (net NET00023
+   (pins DA2-41 K2-1)
+   (rule (tjunction on))
+  )
+  (net NET00134
+   (pins K15-1 DD4-46)
+   (rule (tjunction on))
+  )
+  (net NET00004
+   (pins D2-3 C99-1)
+   (rule (tjunction on))
+  )
+  (net NET00005
+   (pins DD2-9 C28-1 C29-2 C27-2 C30-1)
+   (rule (tjunction on))
+  )
+  (net ADC0
+   (pins DD4-39 R12-8)
+   (rule (tjunction on))
+  )
+  (net ADC1
+   (pins DD4-38 R12-2)
+   (rule (tjunction on))
+  )
+  (net ADC2
+   (pins DD4-37 R12-3)
+   (rule (tjunction on))
+  )
+  (net ADC3
+   (pins DD4-22 R12-4)
+   (rule (tjunction on))
+  )
+  (net ADC4
+   (pins DD4-21 R11-1)
+   (rule (tjunction on))
+  )
+  (net ADC5
+   (pins DD4-18 R10-4)
+   (rule (tjunction on))
+  )
+  (net ADC6
+   (pins DD4-14 R10-3)
+   (rule (tjunction on))
+  )
+  (net ADC7
+   (pins DD4-13 R10-2)
+   (rule (tjunction on))
+  )
+  (net ADC8
+   (pins DD4-12 R10-1)
+   (rule (tjunction on))
+  )
+  (net ADC9
+   (pins DD4-9 R9-4)
+   (rule (tjunction on))
+  )
+  (net ADC10
+   (pins DD4-6 R9-3)
+   (rule (tjunction on))
+  )
+  (net ADC11
+   (pins DD4-5 R9-2)
+   (rule (tjunction on))
+  )
+  (net ADC12
+   (pins DD4-4 R9-1)
+   (rule (tjunction on))
+  )
+  (net NET00116
+   (pins X1-1 C11-1)
+   (rule (tjunction on))
+  )
+  (net 1.2V
+   (pins DD4-198 DD4-228 DD4-10 DD4-1 DD4-19 DD4-40 DD4-53 DD4-60 DD4-190
+         DD4-204 DD4-220 DD4-174 DD4-180 DD4-163 DD4-140 DD4-129 DD4-121
+         DD4-115 DD4-101 DD4-85 DD4-74 DD4-61 C58-1 C52-1 C95-1 C70-1 C69-1
+         L1-1 C51-1 C45-1 C64-1 C39-1 C40-1 C57-1 R24-2 C93-2 C46-1 C63-1)
+   (rule (tjunction on))
+  )
+  (net NSTATUS
+   (pins DD13-90 DD4-17 R21-2)
+   (rule (tjunction on))
+  )
+  (net NET00026
+   (pins DA2-30 R12-1)
+   (rule (tjunction on))
+  )
+  (net NET00024
+   (pins T2-2 T1-4)
+   (rule (tjunction on))
+  )
+  (net NET00025
+   (pins T2-1 T1-6)
+   (rule (tjunction on))
+  )
+  (net CONF_DONE
+   (pins DD13-89 DD4-153 R23-2)
+   (rule (tjunction on))
+  )
+  (net NET00119
+   (pins DA2-29 R12-7)
+   (rule (tjunction on))
+  )
+  (net NET00120
+   (pins DA2-28 R12-6)
+   (rule (tjunction on))
+  )
+  (net NET00121
+   (pins DA2-27 R12-5)
+   (rule (tjunction on))
+  )
+  (net NET00030
+   (pins DA2-26 R11-8)
+   (rule (tjunction on))
+  )
+  (net NET00031
+   (pins DA2-25 R10-5)
+   (rule (tjunction on))
+  )
+  (net NET00032
+   (pins DA2-20 R10-6)
+   (rule (tjunction on))
+  )
+  (net NET00033
+   (pins DA2-19 R10-7)
+   (rule (tjunction on))
+  )
+  (net NET00034
+   (pins DA2-18 R10-8)
+   (rule (tjunction on))
+  )
+  (net NET00035
+   (pins DA2-17 R9-5)
+   (rule (tjunction on))
+  )
+  (net NET00036
+   (pins DA2-16 R9-6)
+   (rule (tjunction on))
+  )
+  (net NET00037
+   (pins DA2-15 R9-7)
+   (rule (tjunction on))
+  )
+  (net NET00038
+   (pins DA2-14 R9-8)
+   (rule (tjunction on))
+  )
+  (net DATA0
+   (pins DD13-86 DD4-24)
+   (rule (tjunction on))
+  )
+  (net DCLK
+   (pins DD13-87 DD4-23)
+   (rule (tjunction on))
+  )
+  (net NCONFIG
+   (pins DD13-88 DD4-25)
+   (rule (tjunction on))
+  )
+  (net RAMD0_0
+   (pins DD4-188 DD6-7)
+   (rule (tjunction on))
+  )
+  (net RAMD0_1
+   (pins DD4-186 DD6-8)
+   (rule (tjunction on))
+  )
+  (net RAMD0_2
+   (pins DD4-185 DD6-11)
+   (rule (tjunction on))
+  )
+  (net RAMD0_3
+   (pins DD4-176 DD6-12)
+   (rule (tjunction on))
+  )
+  (net RAMD0_4
+   (pins DD4-173 DD6-25)
+   (rule (tjunction on))
+  )
+  (net RAMD0_5
+   (pins DD4-177 DD6-26)
+   (rule (tjunction on))
+  )
+  (net RAMD0_6
+   (pins DD4-187 DD6-29)
+   (rule (tjunction on))
+  )
+  (net RAMD0_7
+   (pins DD4-189 DD6-30)
+   (rule (tjunction on))
+  )
+  (net NET00141
+   (pins DD4-34 K11-1)
+   (rule (tjunction on))
+  )
+  (net NET00001
+   (pins DD10-14 DD9-9)
+   (rule (tjunction on))
+  )
+  (net DS
+   (pins DD4-128 DD9-14)
+   (rule (tjunction on))
+  )
+  (net LCLK
+   (pins DD4-126 DD10-12 DD9-12)
+   (rule (tjunction on))
+  )
+  (net TTLD0
+   (pins X5-4 DD9-15)
+   (rule (tjunction on))
+  )
+  (net TTLD1
+   (pins X5-5 DD9-1)
+   (rule (tjunction on))
+  )
+  (net TTLD2
+   (pins X5-6 DD9-2)
+   (rule (tjunction on))
+  )
+  (net TTLD3
+   (pins X5-7 DD9-3)
+   (rule (tjunction on))
+  )
+  (net TTLD4
+   (pins X5-8 DD9-4)
+   (rule (tjunction on))
+  )
+  (net TTLD5
+   (pins X5-9 DD9-5)
+   (rule (tjunction on))
+  )
+  (net TTLD6
+   (pins X5-10 DD9-6)
+   (rule (tjunction on))
+  )
+  (net TTLD7
+   (pins X5-11 DD9-7)
+   (rule (tjunction on))
+  )
+  (net TTLD8
+   (pins X5-12 DD10-15)
+   (rule (tjunction on))
+  )
+  (net TTLD9
+   (pins X5-13 DD10-1)
+   (rule (tjunction on))
+  )
+  (net TTLD10
+   (pins X5-14 DD10-2)
+   (rule (tjunction on))
+  )
+  (net TTLD11
+   (pins X5-15 DD10-3)
+   (rule (tjunction on))
+  )
+  (net RAMD0_8
+   (pins DD4-230 DD8-7)
+   (rule (tjunction on))
+  )
+  (net RAMD0_9
+   (pins DD4-224 DD8-8)
+   (rule (tjunction on))
+  )
+  (net RAMD0_10
+   (pins DD4-219 DD8-11)
+   (rule (tjunction on))
+  )
+  (net RAMD0_11
+   (pins DD4-217 DD8-12)
+   (rule (tjunction on))
+  )
+  (net RAMD0_12
+   (pins DD4-218 DD8-25)
+   (rule (tjunction on))
+  )
+  (net RAMD0_13
+   (pins DD4-221 DD8-26)
+   (rule (tjunction on))
+  )
+  (net RAMD0_14
+   (pins DD4-223 DD8-29)
+   (rule (tjunction on))
+  )
+  (net RAMD0_15
+   (pins DD4-226 DD8-30)
+   (rule (tjunction on))
+  )
+  (net TTLD12
+   (pins X5-16 DD10-4)
+   (rule (tjunction on))
+  )
+  (net TTLD13
+   (pins X5-17 DD10-5)
+   (rule (tjunction on))
+  )
+  (net TTLD14
+   (pins X5-18 DD10-6)
+   (rule (tjunction on))
+  )
+  (net TTLD15
+   (pins X5-19 DD10-7)
+   (rule (tjunction on))
+  )
+  (net NET00002
+   (pins K16-1 DD4-184)
+   (rule (tjunction on))
+  )
+  (net NET00008
+   (pins K17-1 DD4-183)
+   (rule (tjunction on))
+  )
+  (net NET00020
+   (pins K20-1 DD4-181)
+   (rule (tjunction on))
+  )
+  (net NET00039
+   (pins K18-1 DD4-182)
+   (rule (tjunction on))
+  )
+  (net NET00040
+   (pins K21-1 DD4-131)
+   (rule (tjunction on))
+  )
+  (net NET00006
+   (pins D2-6 R25-1 R27-2)
+   (rule (tjunction on))
+  )
+  (net NET00041
+   (pins K19-1 DD4-120)
+   (rule (tjunction on))
+  )
+  (net NET00042
+   (pins DD2-48 R14-1)
+   (rule (tjunction on))
+  )
+  (net NET00043
+   (pins DD13-11 R28-2)
+   (rule (tjunction on))
+  )
+  (net 5V
+   (pins DD10-16 DA3-3 DD9-16 C101-1 C100-1)
+   (rule (tjunction on))
+  )
+  (net NET00044
+   (pins DD4-123 VD3-2 C91-2 C89-2)
+   (rule (tjunction on))
+  )
+  (net NET00045
+   (pins DD4-3 C79-2 VD1-2 C77-2)
+   (rule (tjunction on))
+  )
+  (net RAMD1_0
+   (pins DD4-110 DD5-7)
+   (rule (tjunction on))
+  )
+  (net RAMD1_1
+   (pins DD4-112 DD5-8)
+   (rule (tjunction on))
+  )
+  (net RAMD1_2
+   (pins DD4-117 DD5-11)
+   (rule (tjunction on))
+  )
+  (net RAMD1_3
+   (pins DD4-119 DD5-12)
+   (rule (tjunction on))
+  )
+  (net RAMD1_4
+   (pins DD4-118 DD5-25)
+   (rule (tjunction on))
+  )
+  (net RAMD1_5
+   (pins DD4-114 DD5-26)
+   (rule (tjunction on))
+  )
+  (net RAMD1_6
+   (pins DD4-113 DD5-29)
+   (rule (tjunction on))
+  )
+  (net RAMD1_7
+   (pins DD4-111 DD5-30)
+   (rule (tjunction on))
+  )
+  (net RAMD1_8
+   (pins DD4-78 DD7-7)
+   (rule (tjunction on))
+  )
+  (net RAMD1_9
+   (pins DD4-81 DD7-8)
+   (rule (tjunction on))
+  )
+  (net RAMD1_10
+   (pins DD4-83 DD7-11)
+   (rule (tjunction on))
+  )
+  (net RAMD1_11
+   (pins DD4-87 DD7-12)
+   (rule (tjunction on))
+  )
+  (net RAMD1_12
+   (pins DD4-84 DD7-25)
+   (rule (tjunction on))
+  )
+  (net RAMD1_13
+   (pins DD4-82 DD7-26)
+   (rule (tjunction on))
+  )
+  (net RAMD1_14
+   (pins DD4-80 DD7-29)
+   (rule (tjunction on))
+  )
+  (net RAMD1_15
+   (pins DD4-76 DD7-30)
+   (rule (tjunction on))
+  )
+  (net NET00046
+   (pins DD2-2 K23-1)
+   (rule (tjunction on))
+  )
+  (net TDO
+   (pins DD4-29 R22-4)
+   (rule (tjunction on))
+  )
+  (net TMS
+   (pins DD4-28 R22-3)
+   (rule (tjunction on))
+  )
+  (net RAMA0_0
+   (pins DD4-240 DD8-1 DD6-1)
+   (rule (tjunction on))
+  )
+  (net RAMA0_1
+   (pins DD4-238 DD8-2 DD6-2)
+   (rule (tjunction on))
+  )
+  (net RAMA0_2
+   (pins DD4-236 DD8-3 DD6-3)
+   (rule (tjunction on))
+  )
+  (net RAMA0_3
+   (pins DD4-234 DD8-4 DD6-4)
+   (rule (tjunction on))
+  )
+  (net RAMA0_4
+   (pins DD4-232 DD8-5 DD6-5)
+   (rule (tjunction on))
+  )
+  (net RAMA0_5
+   (pins DD4-207 DD8-14 DD6-14)
+   (rule (tjunction on))
+  )
+  (net RAMA0_6
+   (pins DD4-202 DD8-15 DD6-15)
+   (rule (tjunction on))
+  )
+  (net RAMA0_7
+   (pins DD4-200 DD8-16 DD6-16)
+   (rule (tjunction on))
+  )
+  (net RAMA0_8
+   (pins DD4-196 DD8-17 DD6-17)
+   (rule (tjunction on))
+  )
+  (net RAMA0_9
+   (pins DD4-194 DD8-18 DD6-18)
+   (rule (tjunction on))
+  )
+  (net RAMA0_10
+   (pins DD4-195 DD8-20 DD6-20)
+   (rule (tjunction on))
+  )
+  (net RAMA0_11
+   (pins DD4-197 DD8-21 DD6-21)
+   (rule (tjunction on))
+  )
+  (net RAMA0_12
+   (pins DD4-201 DD8-22 DD6-22)
+   (rule (tjunction on))
+  )
+  (net RAMA0_13
+   (pins DD4-203 DD8-23 DD6-23)
+   (rule (tjunction on))
+  )
+  (net RAMA0_14
+   (pins DD4-216 DD8-24 DD6-24)
+   (rule (tjunction on))
+  )
+  (net RAMA0_15
+   (pins DD4-233 DD8-32 DD6-32)
+   (rule (tjunction on))
+  )
+  (net RAMA0_16
+   (pins DD4-235 DD8-33 DD6-33)
+   (rule (tjunction on))
+  )
+  (net RAMA0_17
+   (pins DD4-237 DD8-34 DD6-34)
+   (rule (tjunction on))
+  )
+  (net RAMA0_18
+   (pins DD4-239 DD8-35 DD6-35)
+   (rule (tjunction on))
+  )
+  (net RAM_OE0
+   (pins DD4-231 DD8-31 DD6-31)
+   (rule (tjunction on))
+  )
+  (net RAM_WE0
+   (pins DD4-214 DD8-13 DD6-13)
+   (rule (tjunction on))
+  )
+  (net RAMA1_1
+   (pins DD4-64 DD7-2 DD5-2)
+   (rule (tjunction on))
+  )
+  (net RAMA1_2
+   (pins DD4-68 DD7-3 DD5-3)
+   (rule (tjunction on))
+  )
+  (net RAMA1_3
+   (pins DD4-70 DD7-4 DD5-4)
+   (rule (tjunction on))
+  )
+  (net RAMA1_4
+   (pins DD4-72 DD7-5 DD5-5)
+   (rule (tjunction on))
+  )
+  (net RAMA1_5
+   (pins DD4-93 DD7-14 DD5-14)
+   (rule (tjunction on))
+  )
+  (net RAMA1_6
+   (pins DD4-95 DD7-15 DD5-15)
+   (rule (tjunction on))
+  )
+  (net RAMA1_7
+   (pins DD4-99 DD7-16 DD5-16)
+   (rule (tjunction on))
+  )
+  (net RAMA1_8
+   (pins DD4-103 DD7-17 DD5-17)
+   (rule (tjunction on))
+  )
+  (net RAMA1_9
+   (pins DD4-107 DD7-18 DD5-18)
+   (rule (tjunction on))
+  )
+  (net RAMA1_10
+   (pins DD4-106 DD7-20 DD5-20)
+   (rule (tjunction on))
+  )
+  (net RAMA1_11
+   (pins DD4-100 DD7-21 DD5-21)
+   (rule (tjunction on))
+  )
+  (net RAMA1_12
+   (pins DD4-98 DD7-22 DD5-22)
+   (rule (tjunction on))
+  )
+  (net RAMA1_13
+   (pins DD4-94 DD7-23 DD5-23)
+   (rule (tjunction on))
+  )
+  (net RAMA1_14
+   (pins DD4-88 DD7-24 DD5-24)
+   (rule (tjunction on))
+  )
+  (net RAMA1_15
+   (pins DD4-73 DD7-32 DD5-32)
+   (rule (tjunction on))
+  )
+  (net RAMA1_16
+   (pins DD4-71 DD7-33 DD5-33)
+   (rule (tjunction on))
+  )
+  (net RAMA1_17
+   (pins DD4-69 DD7-34 DD5-34)
+   (rule (tjunction on))
+  )
+  (net RAMA1_18
+   (pins DD4-65 DD7-35 DD5-35)
+   (rule (tjunction on))
+  )
+  (net FD0
+   (pins DD13-34 DD4-171)
+   (rule (tjunction on))
+  )
+  (net FD1
+   (pins DD13-35 DD4-169)
+   (rule (tjunction on))
+  )
+  (net FD2
+   (pins DD13-36 DD4-168)
+   (rule (tjunction on))
+  )
+  (net FD3
+   (pins DD13-37 DD4-167)
+   (rule (tjunction on))
+  )
+  (net FD4
+   (pins DD13-44 DD4-166)
+   (rule (tjunction on))
+  )
+  (net FD5
+   (pins DD13-45 DD4-164)
+   (rule (tjunction on))
+  )
+  (net FD6
+   (pins DD13-46 DD4-162)
+   (rule (tjunction on))
+  )
+  (net FD7
+   (pins DD13-47 DD4-161)
+   (rule (tjunction on))
+  )
+  (net FD8
+   (pins DD13-80 DD4-148)
+   (rule (tjunction on))
+  )
+  (net FD9
+   (pins DD13-81 DD4-147)
+   (rule (tjunction on))
+  )
+  (net FD10
+   (pins DD13-82 DD4-146)
+   (rule (tjunction on))
+  )
+  (net FD11
+   (pins DD13-83 DD4-145)
+   (rule (tjunction on))
+  )
+  (net FD12
+   (pins DD13-95 DD4-139)
+   (rule (tjunction on))
+  )
+  (net FD13
+   (pins DD13-96 DD4-137)
+   (rule (tjunction on))
+  )
+  (net FD14
+   (pins DD13-97 DD4-135)
+   (rule (tjunction on))
+  )
+  (net FD15
+   (pins DD13-98 DD4-134)
+   (rule (tjunction on))
+  )
+  (net FLAGA
+   (pins DD13-54 DD4-160)
+   (rule (tjunction on))
+  )
+  (net RAMA1_0
+   (pins DD4-63 DD7-1 DD5-1)
+   (rule (tjunction on))
+  )
+  (net FLAGB
+   (pins DD13-55 DD4-159)
+   (rule (tjunction on))
+  )
+  (net SLRD
+   (pins DD13-3 DD4-133)
+   (rule (tjunction on))
+  )
+  (net SLWR
+   (pins DD13-4 DD4-132)
+   (rule (tjunction on))
+  )
+  (net NET00102
+   (pins DD4-178 VD4-2 C92-2 C90-2)
+   (rule (tjunction on))
+  )
+  (net NET00103
+   (pins DD4-58 C78-1 VD2-2 C80-1)
+   (rule (tjunction on))
+  )
+  (net NET00110
+   (pins DD13-18 X4-2)
+   (rule (tjunction on))
+  )
+  (net NET00111
+   (pins DD13-17 X4-3)
+   (rule (tjunction on))
+  )
+  (net NET00112
+   (pins DD13-30 DD14-5 R33-2)
+   (rule (tjunction on))
+  )
+  (net PE5
+   (pins DD13-91 DD4-144)
+   (rule (tjunction on))
+  )
+  (net PE6
+   (pins DD13-92 DD4-143)
+   (rule (tjunction on))
+  )
+  (net PE7
+   (pins DD13-93 DD4-142)
+   (rule (tjunction on))
+  )
+  (net NET00097
+   (pins DD13-27 R30-2)
+   (rule (tjunction on))
+  )
+  (net NET00100
+   (pins DD13-26 R29-2)
+   (rule (tjunction on))
+  )
+  (net IFCLK
+   (pins DD4-152 R29-1)
+   (rule (tjunction on))
+  )
+  (net NET00101
+   (pins DD13-77 R31-2 C111-2)
+   (rule (tjunction on))
+  )
+  (net 24M
+   (pins DD12-1 DD11-3 R28-1 R14-2)
+   (rule (tjunction on))
+  )
+  (net NET00113
+   (pins DD13-29 DD14-6 R32-2)
+   (rule (tjunction on))
+  )
+  (net 7V
+   (pins D1-2 C106-1 D2-2 VD7-2 DA3-1 C102-1 C103-1 R1-1)
+   (rule (tjunction on))
+  )
+  (net NET00117
+   (pins X2-1 C12-1)
+   (rule (tjunction on))
+  )
+  (net NET00015
+   (pins DD2-47 C32-2)
+   (rule (tjunction on))
+  )
+  (net NET00021
+   (pins D1-1 L1-2 VD5-1 C98-2)
+   (rule (tjunction on))
+  )
+  (net TCK
+   (pins DD4-27 R22-2)
+   (rule (tjunction on))
+  )
+  (net TDI
+   (pins DD4-26 R22-1)
+   (rule (tjunction on))
+  )
+  (net RAM_WE1
+   (pins DD4-108 DD7-13 DD5-13)
+   (rule (tjunction on))
+  )
+  (net NET00054
+   (pins D1-3 C98-1)
+   (rule (tjunction on))
+  )
+  (net NET00107
+   (pins X5-1 VD7-1)
+   (rule (tjunction on))
+  )
+  (net NET00016
+   (pins DD2-46 R16-1)
+   (rule (tjunction on))
+  )
+  (net NET00055
+   (pins D1-6 R26-2 R24-1)
+   (rule (tjunction on))
+  )
+  (net NET00018
+   (pins DA1-1 R1-2)
+   (rule (tjunction on))
+  )
+  (net NET00017
+   (pins DD2-44 R17-1)
+   (rule (tjunction on))
+  )
+  (net CS
+   (pins DD13-60 DD2-14)
+   (rule (tjunction on))
+  )
+  (net NET00064
+   (pins R13-2 C27-1)
+   (rule (tjunction on))
+  )
+  (net NET00066
+   (pins DD2-8 DD2-4 R13-1 C29-1)
+   (rule (tjunction on))
+  )
+  (net SDO
+   (pins DD13-59 DD2-15)
+   (rule (tjunction on))
+  )
+  (net SDIO
+   (pins DD13-58 DD2-16)
+   (rule (tjunction on))
+  )
+  (net RESET
+   (pins DD13-57 DD2-17)
+   (rule (tjunction on))
+  )
+  (net LCLK0
+   (pins DD4-31 DD2-33 R20-1)
+   (rule (tjunction on))
+  )
+  (net LCLK1
+   (pins DD4-32 DD2-32 R20-2)
+   (rule (tjunction on))
+  )
+  (net NET00124
+   (pins DD2-29 K7-1)
+   (rule (tjunction on))
+  )
+  (net NET00125
+   (pins K8-1 DD2-28)
+   (rule (tjunction on))
+  )
+  (net NET00126
+   (pins DD2-27 K9-1)
+   (rule (tjunction on))
+  )
+  (net NET00127
+   (pins DD2-26 K10-1)
+   (rule (tjunction on))
+  )
+  (net ADC_CLK1
+   (pins DD2-42 C1-1 R18-1)
+   (rule (tjunction on))
+  )
+  (net ADC_CLK2
+   (pins C2-1 R19-1 DD2-41)
+   (rule (tjunction on))
+  )
+  (net NET00128
+   (pins K4-1 R15-1 C32-1)
+   (rule (tjunction on))
+  )
+  (net NET00129
+   (pins DD4-43 K12-1)
+   (rule (tjunction on))
+  )
+  (net NET00130
+   (pins DD4-44 K13-1)
+   (rule (tjunction on))
+  )
+  (net NET00131
+   (pins K14-1 DD4-45)
+   (rule (tjunction on))
+  )
+  (net NET00047
+   (pins DD2-1 K24-1)
+   (rule (tjunction on))
+  )
+ )
+ (wiring
+  (via d32d50 1125.22 784.86
+   (via_number 1)
+   (net ProtectedFreePad)
+   (type route)
+  )
+  (via d32d50 1295.4 784.86
+   (via_number 1)
+   (net ProtectedFreePad)
+   (type route)
+  )
+  (via d32d50 1125.22 645.16
+   (via_number 1)
+   (net ProtectedFreePad)
+   (type route)
+  )
+  (via d32d50 1295.4 645.16
+   (via_number 1)
+   (net ProtectedFreePad)
+   (type route)
+  )
+ )
+)

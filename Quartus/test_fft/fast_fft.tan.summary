@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.623 ns
+From           : adc_data[10]
+To             : adcds[10]
+From Clock     : --
+To Clock       : sclk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.833 ns
+From           : fifo32:fifo32_inst|dcfifo:dcfifo_component|dcfifo_i0i1:auto_generated|rdemp_eq_comp_lsb_aeb
+To             : k22
+From Clock     : ifclk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -1.952 ns
+From           : adc_data[0]
+To             : adcds[0]
+From Clock     : --
+To Clock       : sclk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'sclk'
+Slack          : 1.506 ns
+Required Time  : 120.00 MHz ( period = 8.333 ns )
+Actual Time    : 187.97 MHz ( period = 5.320 ns )
+From           : reset_all
+To             : sincos:sc|res_get
+From Clock     : sclk
+To Clock       : sclk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ifclk'
+Slack          : 5.961 ns
+Required Time  : 60.00 MHz ( period = 16.666 ns )
+Actual Time    : 93.41 MHz ( period = 10.705 ns )
+From           : fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|source_stall_d
+To             : fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|asj_fft_dft_bfp_fft_90:bfpdft_y|asj_fft_cmult_std_fft_90:\gen_switched:gen_std:cm3|asj_fft_mult_add_fft_90:\gen_ma:gen_ma_full:ms|altmult_add:ALTMULT_ADD_component|mult_add_1cf2:auto_generated|ded_mult_n591:ded_mult2|mac_out9
+From Clock     : ifclk
+To Clock       : ifclk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'pe6'
+Slack          : 6.974 ns
+Required Time  : 120.00 MHz ( period = 8.333 ns )
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : md[17]
+To             : md[16]
+From Clock     : pe6
+To Clock       : pe6
+Failed Paths   : 0
+
+Type           : Clock Hold: 'ifclk'
+Slack          : 0.550 ns
+Required Time  : 60.00 MHz ( period = 16.666 ns )
+Actual Time    : N/A
+From           : fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|asj_fft_unbburst_ctrl_de_fft_90:ccc|a_ram_data_in_bus_x[60]
+To             : fft:mfft|asj_fft_si_de_so_b_fft_90:asj_fft_si_de_so_b_fft_90_inst|asj_fft_4dp_ram_fft_90:dat_A_x|asj_fft_data_ram_fft_90:\gen_rams:2:dat_A|altsyncram:\gen_M4K:altsyncram_component|altsyncram_p6m3:auto_generated|ram_block1a23~porta_datain_reg0
+From Clock     : ifclk
+To Clock       : ifclk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'sclk'
+Slack          : 0.646 ns
+Required Time  : 120.00 MHz ( period = 8.333 ns )
+Actual Time    : N/A
+From           : sincos:sc|fir16:fir_cos|fir16_ast:fir16_ast_inst|fir16_st_wr:fircore|mr_dnc_wr:u1|cnt_reg[1]
+To             : sincos:sc|fir16:fir_cos|fir16_ast:fir16_ast_inst|fir16_st_wr:fircore|mr_dnc_wr:u1|cnt_reg[1]
+From Clock     : sclk
+To Clock       : sclk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'pe6'
+Slack          : 0.707 ns
+Required Time  : 120.00 MHz ( period = 8.333 ns )
+Actual Time    : N/A
+From           : md[30]
+To             : md[29]
+From Clock     : pe6
+To Clock       : pe6
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

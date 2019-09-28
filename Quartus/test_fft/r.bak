@@ -1,0 +1,5 @@
+vlog -reportprogress 300 -work work D:/ADC/asvm12120_fft_fast/Quartus/fast_fft/asvm12120_fft.v
+vlog -reportprogress 300 -work work D:/ADC/asvm12120_fft_fast/Quartus/fast_fft/fast_fft_tb.v
+restart -f
+run 5us
+
